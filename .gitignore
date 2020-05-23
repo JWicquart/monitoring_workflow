@@ -1,0 +1,13 @@
+# Base #
+########
+
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# folder #
+##########
+
+doc/
+pres/
