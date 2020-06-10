@@ -28,7 +28,7 @@ On the project main page on GitHub, click on the green button `clone or download
 
 
 
-The **Table 1** describes the selected variables for the final benthic dataset. The variables 1 to 12 are spatial variables; the variables 13 and 14, are temporal variables; the variables 15 and 16, are methodological variables; and the variables 17 to 22 are taxonomical variables.
+The **Table 1** describes the selected variables for the final benthic dataset. The variables 1 to 12 are spatial variables; the variables 13 and 14, are temporal variables; the variables 15 and 16, are methodological variables; the variables 17 to 22 are taxonomical variables; and the variable 23 is the metric variable.
 
 
 
@@ -82,7 +82,7 @@ The **Table 1** describes the selected variables for the final benthic dataset. 
 
 
 
-The **Table 3** describes the selected variables for the final fish dataset. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 18 are taxonomical variables.
+The **Table 3** describes the selected variables for the final fish dataset. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 18 are taxonomical variables; and the variables 19 and 20 are the metric variables.
 
 
 
