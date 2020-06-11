@@ -18,14 +18,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-# Defining functions and packages
+# Load packages
 
 ```{r base}
 
 # 1. Required packages ----
 
 library(tidyverse) # Core tidyverse packages
-library(readxl) # To read Excel files
+library(readxl) # To read excel files
 
 # 2. Create a vector of selected variables names to check which ones are missing ----
 
@@ -66,6 +66,8 @@ data_main <- data_main %>%
   summarise(Cover = n()) %>% # Get number of point of each substrate type on the transect
   ungroup() %>% 
   mutate(Cover = Cover*2, # Transform Cover to percentage of cover
+         Latitude = as.numeric(Latitude), # Convert Latitude to numeric
+         Longitude = as.numeric(Longitude), # Convert Longitude to numeric
          DatasetID = "DATA1",
          Area = "Pacific",
          Country = "USA",
@@ -75,7 +77,7 @@ data_main <- data_main %>%
 
 # 4. Export file ----
 
-write.csv2(data_main, "./../data/01-clean_DATA1.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/reformatted/01-clean_DATA1.csv", row.names = FALSE)
 
 # 5. Summary #2 ----
 
@@ -129,14 +131,15 @@ data_main <- data_main %>%
          Long_side = str_split_fixed(Longitude, "°|'|\"", 4)[,4],
          Longitude = Long_degree + (Long_min/60) + (Long_sec/3600),
          Longitude = ifelse(Long_side == "E", Longitude, ifelse(Long_side == "W", -Longitude, NA))) %>% # Convert Long. coord.*
-  mutate(DatasetID = "DATA2",
+  mutate(Replicate = str_sub(Replicate, start = 3, end = 3), # Extract the number of the replicate
+         DatasetID = "DATA2",
          Area = "Caribbean") # Add variables absent in data (can be obtained through data contributor)
   
 # * functions can be used for this, but this method is more polyvalent
 
 # 4. Export file ----
 
-write.csv2(data_main, "./../data/01-clean_DATA2.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/reformatted/01-clean_DATA2.csv", row.names = FALSE)
 
 # 5. Summary #2 ----
 
@@ -184,14 +187,16 @@ data_main <- data_main %>%
   pivot_longer("Acanthastrea":"Wand", names_to = "Tax_ID", values_to = "Cover") %>% # Pivot the data (wide to long format)
   filter(Cover != 0) %>% # Remove rows where cover == 0 (useless)
   rename(Replicate = Transect, Zone = Habitat) %>% # Rename variables
-  mutate(DatasetID = "DATA3",
+  mutate(Latitude = as.numeric(Latitude), # Convert Latitude to numeric
+         Longitude = as.numeric(Longitude), # Convert Longitude to numeric
+         DatasetID = "DATA3",
          Area = "Australia",
          Country = "Australia",
          Location = "Lizard Island") # Add variables absent in data (can be obtained through data contributor)
 
 # 4. Export file ----
 
-write.csv2(data_main, "./../data/01-clean_DATA3.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/reformatted/01-clean_DATA3.csv", row.names = FALSE)
 
 # 5. Summary #2 ----
 
@@ -209,7 +214,13 @@ rm(data_main, i)
 
 ## Dataset 4
 
-```{r DATA4}
+```{r DATA4.1}
+
+
+
+```
+
+```{r DATA4.2}
 
 
 

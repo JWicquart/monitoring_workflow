@@ -1,0 +1,71 @@
+---
+title: "Path 3.A - Step 3 - Data grouping and taxonomic assignement"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: "cosmo"
+    highlight: tango
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Load packages
+
+```{r base}
+
+# 1. Required packages ----
+
+library(tidyverse) # Core tidyverse packages
+
+```
+
+# Data grouping
+
+```{r warning=FALSE}
+
+# 1. Get list of csv file ----
+
+files_list <- list.files(path = "./../data/reformatted")
+
+# 2. Bind datasets using a loop ----
+
+# 2.1 Initialize synthetic dataset with first file --
+
+synthetic_data <- read.csv2(paste0("./../data/reformatted/", files_list[1]))
+
+# 2.2 Bind with all other files --
+
+for(i in 2:length(files_list)){
+  
+  dataset_i <- read.csv2(paste0("./../data/reformatted/", files_list[i]))
+  synthetic_data <- bind_rows(synthetic_data, dataset_i)
+  
+}
+
+# 3. Remove useless datasets and variables ----
+
+rm(files_list, dataset_i)
+
+```
+
+# Reproducibility
+
+```{r reprod}
+
+# 1. Reproducibility ----
+
+sessionInfo()
+
+```
+
+---
+Jeremy WICQUART | jeremywicquart@gmail.com | `r format(Sys.time())`
