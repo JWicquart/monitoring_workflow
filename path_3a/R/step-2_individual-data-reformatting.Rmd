@@ -26,6 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse) # Core tidyverse packages
 library(readxl) # To read excel files
+library(lubridate) # To transform date
 
 # 2. Create a vector of selected variables names to check which ones are missing ----
 
@@ -37,28 +38,24 @@ selected_variables <- c("DatasetID", "Area", "Country", "Archipelago",
 
 # Data cleaning
 
-## Dataset 1
+## Data contributor 1
 
 ```{r DATA1}
 
 # 1. Import data ----
 
 # Main data
-data_main <- read_excel("./../data/raw/dataset1/dataset1.xlsx", 
+data_main <- read_excel("./../data/raw/data_contributor_1/dataset1.xlsx", 
                         sheet = "Main data")
 
-# Substrate code
-data_code <- read_excel("./../data/raw/dataset1/dataset1.xlsx", 
+# Substrate code data
+data_code <- read_excel("./../data/raw/data_contributor_1/dataset1.xlsx", 
                         sheet = "Substrate codes")
 
-# 2. Summary #1 ----
-
-summary(data_main)
-
-# 3. Merge and modifications ----
+# 2. Merge and modifications ----
 
 data_main <- data_main %>% 
-  left_join(., data_code) %>% # Merge main data and substrates codes
+  left_join(., data_code) %>% # Merge main data with substrates codes
   select(-Season, -Code, -Remarks) %>% # Delete useless variables
   rename(Zone = Habitat, Observer = Oserver, Replicate = Station, 
          Latitude = Lat, Longitude = Long, Tax_ID = Substrate) %>% # Rename variables
@@ -75,43 +72,35 @@ data_main <- data_main %>%
          Location = "Guam",
          Method = "Point Intercept Transect") # Add variables absent in data (can be obtained through data contributor)
 
-# 4. Export file ----
+# 3. Export data ----
 
 write.csv2(data_main, "./../data/reformatted/01-clean_DATA1.csv", row.names = FALSE)
 
-# 5. Summary #2 ----
-
-summary(data_main)
-
-# 6. Missing variables ----
+# 4. Missing variables ----
 
 setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
 
-# 7. Remove useless datasets and variables ----
+# 5. Remove useless datasets and variables ----
 
 rm(data_main, data_code)
 
 ```
 
-## Dataset 2
+## Data contributor 2
 
 ```{r DATA2}
 
 # 1. Import data ----
 
 # Main data
-data_main <- read_excel("./../data/raw/dataset2/dataset2.xlsx", 
+data_main <- read_excel("./../data/raw/data_contributor_2/dataset2.xlsx", 
                         sheet = "Transect")
 
-# Substrate code
-data_site <- read_excel("./../data/raw/dataset2/dataset2.xlsx", 
+# Site data
+data_site <- read_excel("./../data/raw/data_contributor_2/dataset2.xlsx", 
                         sheet = "Informations")
 
-# 2. Summary #1 ----
-
-summary(data_main)
-
-# 3. Merge and modifications ----
+# 2. Merge and modifications ----
 
 data_main <- data_main %>% 
   left_join(., data_site) %>% # Merge main data and substrates codes
@@ -137,25 +126,21 @@ data_main <- data_main %>%
   
 # * functions can be used for this, but this method is more polyvalent
 
-# 4. Export file ----
+# 3. Export data ----
 
 write.csv2(data_main, "./../data/reformatted/01-clean_DATA2.csv", row.names = FALSE)
 
-# 5. Summary #2 ----
-
-summary(data_main)
-
-# 6. Missing variables ----
+# 4. Missing variables ----
 
 setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
 
-# 7. Remove useless datasets and variables ----
+# 5. Remove useless datasets and variables ----
 
 rm(data_main, data_site)
 
 ```
 
-## Dataset 3
+## Data contributor 3
 
 ```{r DATA3}
 
@@ -163,24 +148,20 @@ rm(data_main, data_site)
 
 # Import first sheet
 
-data_main <- read_excel("./../data/raw/dataset3/dataset3.xlsx", sheet = 1) %>% 
-  mutate(Site = excel_sheets("./../data/raw/dataset3/dataset3.xlsx")[1])
+data_main <- read_excel("./../data/raw/data_contributor_3/dataset3.xlsx", sheet = 1) %>% 
+  mutate(Site = excel_sheets("./../data/raw/data_contributor_3/dataset3.xlsx")[1])
   
 # Make a loop to bind all sheets
 
-for(i in 2:length(excel_sheets("./../data/raw/dataset3/dataset3.xlsx"))){
+for(i in 2:length(excel_sheets("./../data/raw/data_contributor_3/dataset3.xlsx"))){
   
-  data_main <- read_excel("./../data/raw/dataset3/dataset3.xlsx", sheet = i) %>% 
-    mutate(Site = excel_sheets("./../data/raw/dataset3/dataset3.xlsx")[i]) %>% 
+  data_main <- read_excel("./../data/raw/data_contributor_3/dataset3.xlsx", sheet = i) %>% 
+    mutate(Site = excel_sheets("./../data/raw/data_contributor_3/dataset3.xlsx")[i]) %>% 
     bind_rows(data_main, .)
   
 }
 
-# 2. Summary #1 ----
-
-summary(data_main)
-
-# 3. Merge and modifications ----
+# 2. Merge and modifications ----
 
 data_main <- data_main %>% 
   select(-"AllCorals":-"SUM_ALL") %>% # Delete useless variables (here, those corresponding to the sum of oth. var.)
@@ -194,39 +175,67 @@ data_main <- data_main %>%
          Country = "Australia",
          Location = "Lizard Island") # Add variables absent in data (can be obtained through data contributor)
 
-# 4. Export file ----
+# 3. Export data ----
 
 write.csv2(data_main, "./../data/reformatted/01-clean_DATA3.csv", row.names = FALSE)
 
-# 5. Summary #2 ----
-
-summary(data_main)
-
-# 6. Missing variables ----
+# 4. Missing variables ----
 
 setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
 
-# 7. Remove useless datasets and variables ----
+# 5. Remove useless datasets and variables ----
 
 rm(data_main, i)
 
 ```
 
-## Dataset 4
+## Data contributor 4
 
-```{r DATA4.1}
+```{r DATA4}
 
+# 1. Import data ----
 
+# Main data 1
+data_main_1 <- read.csv("./../data/raw/data_contributor_4/dataset4a.csv", sep = ";")
+
+# Main data 2
+data_main_2 <- read.csv("./../data/raw/data_contributor_4/dataset4b.csv", sep = ";")
+
+# Substrate code
+data_code <- read.csv("./../data/raw/data_contributor_4/dataset4c.csv", sep = ";")
+
+# 2. Merge and modifications ----
+
+data_main <- data_main_1 %>% 
+  bind_rows(., data_main_2) %>% # Bind the two dataframes
+  pivot_longer("CAB":"BC", names_to = "Code", values_to = "Cover") %>% # Pivot the data (wide to long format)
+  filter(Cover != 0) %>% # Remove rows where cover == 0 (useless)
+  left_join(., data_code) %>% # Merge main data with substrates codes
+  select(-Sum, -HCC, -Code) %>% # Delete useless variables
+  rename(Latitude = Lat, Longitude = Long, Replicate = Transect, Tax_ID = Category) %>% # Rename variables
+  mutate(DatasetID = "DATA4",
+         Area = "Indian Ocean",
+         Country = "Maldives",
+         Archipelago = "Maldives",
+         Date = format(strptime(as.character(Date), "%d/%m/%Y"), "%Y-%m-%d"),
+         Zone = str_replace_all(Zone, c("OS" = "Outer Slope",
+                                        "LG" = "Lagoon"))) # Add variables absent in data (can be obtained through data contributor)
+
+# 3. Export data ----
+
+write.csv2(data_main, "./../data/reformatted/01-clean_DATA4.csv", row.names = FALSE)
+
+# 4. Missing variables ----
+
+setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
+
+# 5. Remove useless datasets and variables ----
+
+rm(data_main, data_main_1, data_main_2, data_code)
 
 ```
 
-```{r DATA4.2}
-
-
-
-```
-
-## Dataset 5
+## Data contributor 5
 
 ```{r DATA5}
 
