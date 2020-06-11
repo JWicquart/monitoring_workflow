@@ -1,10 +1,10 @@
-# **A workflow to harmonize ecological monitoring data from multiples sources**
+# **A workflow to integrate ecological monitoring data from multiples sources**
 
 
 
 **This repository contains the two case studies presented in the article**:
 
-Wicquart, J., Planes, S. (2020). A workflow to harmonize ecological monitoring data from multiples sources. _Methods in Ecology and Evolution_, in prep.
+Wicquart, J., Planes, S. (2020). A workflow to integrate ecological monitoring data from multiples sources. _Methods in Ecology and Evolution_, in prep.
 
 **How to download the code?**
 
