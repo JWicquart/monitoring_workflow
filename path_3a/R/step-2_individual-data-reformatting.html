@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-06-11" />
+<meta name="date" content="2020-06-15" />
 
 <title>Path 3.A - Step 2 - Individual data reformatting</title>
 
@@ -1590,7 +1590,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Path 3.A - Step 2 - Individual data reformatting</h1>
-<h4 class="date">2020-06-11</h4>
+<h4 class="date">2020-06-15</h4>
 
 </div>
 
@@ -1660,7 +1660,7 @@ div.tocify {
 <pre><code>## Joining, by = &quot;Code&quot;</code></pre>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" title="1"><span class="co"># 3. Export data ----</span></a>
 <a class="sourceLine" id="cb12-2" title="2"></a>
-<a class="sourceLine" id="cb12-3" title="3"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-clean_DATA1.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
+<a class="sourceLine" id="cb12-3" title="3"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-reformatted_DATA1.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
 <a class="sourceLine" id="cb12-4" title="4"></a>
 <a class="sourceLine" id="cb12-5" title="5"><span class="co"># 4. Missing variables ----</span></a>
 <a class="sourceLine" id="cb12-6" title="6"></a>
@@ -1696,21 +1696,23 @@ div.tocify {
 <a class="sourceLine" id="cb15-22" title="22">         <span class="dt">Lat_side =</span> <span class="kw">str_split_fixed</span>(Latitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">4</span>],</a>
 <a class="sourceLine" id="cb15-23" title="23">         <span class="dt">Latitude =</span> Lat_degree <span class="op">+</span><span class="st"> </span>(Lat_min<span class="op">/</span><span class="dv">60</span>) <span class="op">+</span><span class="st"> </span>(Lat_sec<span class="op">/</span><span class="dv">3600</span>),</a>
 <a class="sourceLine" id="cb15-24" title="24">         <span class="dt">Latitude =</span> <span class="kw">ifelse</span>(Lat_side <span class="op">==</span><span class="st"> &quot;N&quot;</span>, Latitude, <span class="kw">ifelse</span>(Lat_side <span class="op">==</span><span class="st"> &quot;S&quot;</span>, <span class="op">-</span>Latitude, <span class="ot">NA</span>))) <span class="op">%&gt;%</span><span class="st"> </span><span class="co"># Convert Lat. coord.*</span></a>
-<a class="sourceLine" id="cb15-25" title="25"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">Long_degree =</span> <span class="kw">as.numeric</span>(<span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">1</span>]),</a>
-<a class="sourceLine" id="cb15-26" title="26">         <span class="dt">Long_min =</span> <span class="kw">as.numeric</span>(<span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">2</span>]),</a>
-<a class="sourceLine" id="cb15-27" title="27">         <span class="dt">Long_sec =</span> <span class="kw">as.numeric</span>(<span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">3</span>]),</a>
-<a class="sourceLine" id="cb15-28" title="28">         <span class="dt">Long_side =</span> <span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">4</span>],</a>
-<a class="sourceLine" id="cb15-29" title="29">         <span class="dt">Longitude =</span> Long_degree <span class="op">+</span><span class="st"> </span>(Long_min<span class="op">/</span><span class="dv">60</span>) <span class="op">+</span><span class="st"> </span>(Long_sec<span class="op">/</span><span class="dv">3600</span>),</a>
-<a class="sourceLine" id="cb15-30" title="30">         <span class="dt">Longitude =</span> <span class="kw">ifelse</span>(Long_side <span class="op">==</span><span class="st"> &quot;E&quot;</span>, Longitude, <span class="kw">ifelse</span>(Long_side <span class="op">==</span><span class="st"> &quot;W&quot;</span>, <span class="op">-</span>Longitude, <span class="ot">NA</span>))) <span class="op">%&gt;%</span><span class="st"> </span><span class="co"># Convert Long. coord.*</span></a>
-<a class="sourceLine" id="cb15-31" title="31"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">Replicate =</span> <span class="kw">str_sub</span>(Replicate, <span class="dt">start =</span> <span class="dv">3</span>, <span class="dt">end =</span> <span class="dv">3</span>), <span class="co"># Extract the number of the replicate</span></a>
-<a class="sourceLine" id="cb15-32" title="32">         <span class="dt">DatasetID =</span> <span class="st">&quot;DATA2&quot;</span>,</a>
-<a class="sourceLine" id="cb15-33" title="33">         <span class="dt">Area =</span> <span class="st">&quot;Caribbean&quot;</span>) <span class="co"># Add variables absent in data (can be obtained through data contributor)</span></a></code></pre></div>
+<a class="sourceLine" id="cb15-25" title="25"><span class="st">  </span><span class="kw">select</span>(<span class="op">-</span>Lat_degree, <span class="op">-</span>Lat_min, <span class="op">-</span>Lat_sec, <span class="op">-</span>Lat_side) <span class="op">%&gt;%</span><span class="st"> </span><span class="co"># Delete useless variables</span></a>
+<a class="sourceLine" id="cb15-26" title="26"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">Long_degree =</span> <span class="kw">as.numeric</span>(<span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">1</span>]),</a>
+<a class="sourceLine" id="cb15-27" title="27">         <span class="dt">Long_min =</span> <span class="kw">as.numeric</span>(<span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">2</span>]),</a>
+<a class="sourceLine" id="cb15-28" title="28">         <span class="dt">Long_sec =</span> <span class="kw">as.numeric</span>(<span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">3</span>]),</a>
+<a class="sourceLine" id="cb15-29" title="29">         <span class="dt">Long_side =</span> <span class="kw">str_split_fixed</span>(Longitude, <span class="st">&quot;°|&#39;|</span><span class="ch">\&quot;</span><span class="st">&quot;</span>, <span class="dv">4</span>)[,<span class="dv">4</span>],</a>
+<a class="sourceLine" id="cb15-30" title="30">         <span class="dt">Longitude =</span> Long_degree <span class="op">+</span><span class="st"> </span>(Long_min<span class="op">/</span><span class="dv">60</span>) <span class="op">+</span><span class="st"> </span>(Long_sec<span class="op">/</span><span class="dv">3600</span>),</a>
+<a class="sourceLine" id="cb15-31" title="31">         <span class="dt">Longitude =</span> <span class="kw">ifelse</span>(Long_side <span class="op">==</span><span class="st"> &quot;E&quot;</span>, Longitude, <span class="kw">ifelse</span>(Long_side <span class="op">==</span><span class="st"> &quot;W&quot;</span>, <span class="op">-</span>Longitude, <span class="ot">NA</span>))) <span class="op">%&gt;%</span><span class="st"> </span><span class="co"># Convert Long. coord.*</span></a>
+<a class="sourceLine" id="cb15-32" title="32"><span class="st">  </span><span class="kw">select</span>(<span class="op">-</span>Long_degree, <span class="op">-</span>Long_min, <span class="op">-</span>Long_sec, <span class="op">-</span>Long_side) <span class="op">%&gt;%</span><span class="st"> </span><span class="co"># Delete useless variables</span></a>
+<a class="sourceLine" id="cb15-33" title="33"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">Replicate =</span> <span class="kw">str_sub</span>(Replicate, <span class="dt">start =</span> <span class="dv">3</span>, <span class="dt">end =</span> <span class="dv">3</span>), <span class="co"># Extract the number of the replicate</span></a>
+<a class="sourceLine" id="cb15-34" title="34">         <span class="dt">DatasetID =</span> <span class="st">&quot;DATA2&quot;</span>,</a>
+<a class="sourceLine" id="cb15-35" title="35">         <span class="dt">Area =</span> <span class="st">&quot;Caribbean&quot;</span>) <span class="co"># Add variables absent in data (can be obtained through data contributor)</span></a></code></pre></div>
 <pre><code>## Joining, by = &quot;Transect&quot;</code></pre>
 <div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1"><span class="co"># * functions can be used for this, but this method is more polyvalent</span></a>
 <a class="sourceLine" id="cb17-2" title="2"></a>
 <a class="sourceLine" id="cb17-3" title="3"><span class="co"># 3. Export data ----</span></a>
 <a class="sourceLine" id="cb17-4" title="4"></a>
-<a class="sourceLine" id="cb17-5" title="5"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-clean_DATA2.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
+<a class="sourceLine" id="cb17-5" title="5"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-reformatted_DATA2.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
 <a class="sourceLine" id="cb17-6" title="6"></a>
 <a class="sourceLine" id="cb17-7" title="7"><span class="co"># 4. Missing variables ----</span></a>
 <a class="sourceLine" id="cb17-8" title="8"></a>
@@ -1756,7 +1758,7 @@ div.tocify {
 <a class="sourceLine" id="cb20-31" title="31"></a>
 <a class="sourceLine" id="cb20-32" title="32"><span class="co"># 3. Export data ----</span></a>
 <a class="sourceLine" id="cb20-33" title="33"></a>
-<a class="sourceLine" id="cb20-34" title="34"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-clean_DATA3.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
+<a class="sourceLine" id="cb20-34" title="34"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-reformatted_DATA3.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
 <a class="sourceLine" id="cb20-35" title="35"></a>
 <a class="sourceLine" id="cb20-36" title="36"><span class="co"># 4. Missing variables ----</span></a>
 <a class="sourceLine" id="cb20-37" title="37"></a>
@@ -1818,7 +1820,7 @@ div.tocify {
 ## character vector</code></pre>
 <div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" title="1"><span class="co"># 3. Export data ----</span></a>
 <a class="sourceLine" id="cb32-2" title="2"></a>
-<a class="sourceLine" id="cb32-3" title="3"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-clean_DATA4.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
+<a class="sourceLine" id="cb32-3" title="3"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-reformatted_DATA4.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
 <a class="sourceLine" id="cb32-4" title="4"></a>
 <a class="sourceLine" id="cb32-5" title="5"><span class="co"># 4. Missing variables ----</span></a>
 <a class="sourceLine" id="cb32-6" title="6"></a>
@@ -1830,13 +1832,84 @@ div.tocify {
 </div>
 <div id="data-contributor-5" class="section level2">
 <h2>Data contributor 5</h2>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb35-1" title="1"><span class="co"># 1. Import data ----</span></a>
+<a class="sourceLine" id="cb35-2" title="2"></a>
+<a class="sourceLine" id="cb35-3" title="3"><span class="co"># Main data</span></a>
+<a class="sourceLine" id="cb35-4" title="4">data_main &lt;-<span class="st"> </span><span class="kw">read_excel</span>(<span class="st">&quot;./../data/raw/data_contributor_5/dataset5a.xlsx&quot;</span>, <span class="dt">sheet =</span> <span class="st">&quot;Sheet1&quot;</span>)</a></code></pre></div>
+<pre><code>## New names:
+## * LOBOPHYLLIA -&gt; LOBOPHYLLIA...8
+## * LOBOPHYLLIA -&gt; LOBOPHYLLIA...35</code></pre>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb37-1" title="1"><span class="co"># Site data</span></a>
+<a class="sourceLine" id="cb37-2" title="2">data_site &lt;-<span class="st"> </span><span class="kw">read_excel</span>(<span class="st">&quot;./../data/raw/data_contributor_5/dataset5c.xlsx&quot;</span>, <span class="dt">sheet =</span> <span class="st">&quot;Coordinates&quot;</span>)</a>
+<a class="sourceLine" id="cb37-3" title="3"></a>
+<a class="sourceLine" id="cb37-4" title="4"><span class="co"># 2. Merge and modifications ----</span></a>
+<a class="sourceLine" id="cb37-5" title="5"></a>
+<a class="sourceLine" id="cb37-6" title="6">data_main &lt;-<span class="st"> </span>data_main <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb37-7" title="7"><span class="st">  </span><span class="kw">select</span>(<span class="op">-</span>Total) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb37-8" title="8"><span class="st">  </span><span class="kw">pivot_longer</span>(<span class="st">&quot;ACANTHASTREA&quot;</span><span class="op">:</span><span class="st">&quot;TURBINARIA&quot;</span>, <span class="dt">names_to =</span> <span class="st">&quot;Tax_ID&quot;</span>, <span class="dt">values_to =</span> <span class="st">&quot;Cover&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb37-9" title="9"><span class="st">  </span><span class="kw">filter</span>(Cover <span class="op">!=</span><span class="st"> </span><span class="dv">0</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb37-10" title="10"><span class="st">  </span><span class="kw">left_join</span>(., data_site) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb37-11" title="11"><span class="st">  </span><span class="kw">rename</span>(<span class="dt">Year =</span> YEAR, <span class="dt">Replicate =</span> <span class="st">&quot;Site No&quot;</span>, <span class="dt">Latitude =</span> Lat, <span class="dt">Longitude =</span> Long) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb37-12" title="12"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">DatasetID =</span> <span class="st">&quot;DATA5.1&quot;</span>,</a>
+<a class="sourceLine" id="cb37-13" title="13">         <span class="dt">Area =</span> <span class="st">&quot;Caribbean&quot;</span>,</a>
+<a class="sourceLine" id="cb37-14" title="14">         <span class="dt">Country =</span> <span class="st">&quot;Panama&quot;</span>,</a>
+<a class="sourceLine" id="cb37-15" title="15">         <span class="dt">Archipelago =</span> <span class="st">&quot;Bocas del Toro&quot;</span>,</a>
+<a class="sourceLine" id="cb37-16" title="16">         <span class="dt">Latitude =</span> <span class="kw">as.numeric</span>(Latitude), <span class="co"># Convert Latitude to numeric</span></a>
+<a class="sourceLine" id="cb37-17" title="17">         <span class="dt">Longitude =</span> <span class="kw">as.numeric</span>(Longitude), <span class="co"># Convert Longitude to numeric</span></a>
+<a class="sourceLine" id="cb37-18" title="18">         <span class="dt">Depth =</span> Depth<span class="op">*</span><span class="fl">0.3048</span>) <span class="co"># Convert depth in feet to depth in meters</span></a></code></pre></div>
+<pre><code>## Joining, by = &quot;Site&quot;</code></pre>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb39-1" title="1"><span class="co"># 3. Export data ----</span></a>
+<a class="sourceLine" id="cb39-2" title="2"></a>
+<a class="sourceLine" id="cb39-3" title="3"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-reformatted_DATA5.1.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
+<a class="sourceLine" id="cb39-4" title="4"></a>
+<a class="sourceLine" id="cb39-5" title="5"><span class="co"># 4. Missing variables ----</span></a>
+<a class="sourceLine" id="cb39-6" title="6"></a>
+<a class="sourceLine" id="cb39-7" title="7"><span class="kw">setdiff</span>(selected_variables, <span class="kw">colnames</span>(data_main)) <span class="co"># Get names of missing variables</span></a></code></pre></div>
+<pre><code>## [1] &quot;Quadrat&quot;  &quot;Zone&quot;     &quot;Date&quot;     &quot;Method&quot;   &quot;Observer&quot;</code></pre>
+<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb41-1" title="1"><span class="co"># 5. Remove useless datasets and variables ----</span></a>
+<a class="sourceLine" id="cb41-2" title="2"></a>
+<a class="sourceLine" id="cb41-3" title="3"><span class="kw">rm</span>(data_main, data_site)</a></code></pre></div>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb42-1" title="1"><span class="co"># 1. Import data ----</span></a>
+<a class="sourceLine" id="cb42-2" title="2"></a>
+<a class="sourceLine" id="cb42-3" title="3"><span class="co"># Main data</span></a>
+<a class="sourceLine" id="cb42-4" title="4">data_main &lt;-<span class="st"> </span><span class="kw">read_excel</span>(<span class="st">&quot;./../data/raw/data_contributor_5/dataset5b.xlsx&quot;</span>, <span class="dt">sheet =</span> <span class="st">&quot;Sheet1&quot;</span>)</a>
+<a class="sourceLine" id="cb42-5" title="5"></a>
+<a class="sourceLine" id="cb42-6" title="6"><span class="co"># Site data</span></a>
+<a class="sourceLine" id="cb42-7" title="7">data_site &lt;-<span class="st"> </span><span class="kw">read_excel</span>(<span class="st">&quot;./../data/raw/data_contributor_5/dataset5c.xlsx&quot;</span>, <span class="dt">sheet =</span> <span class="st">&quot;Coordinates&quot;</span>)</a>
+<a class="sourceLine" id="cb42-8" title="8"></a>
+<a class="sourceLine" id="cb42-9" title="9"><span class="co"># 2. Merge and modifications ----</span></a>
+<a class="sourceLine" id="cb42-10" title="10"></a>
+<a class="sourceLine" id="cb42-11" title="11">data_main &lt;-<span class="st"> </span>data_main <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb42-12" title="12"><span class="st">  </span><span class="kw">pivot_longer</span>(<span class="st">&quot;Abiotic&quot;</span><span class="op">:</span><span class="st">&quot;Algae_other&quot;</span>, <span class="dt">names_to =</span> <span class="st">&quot;Tax_ID&quot;</span>, <span class="dt">values_to =</span> <span class="st">&quot;Cover&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb42-13" title="13"><span class="st">  </span><span class="kw">filter</span>(Cover <span class="op">!=</span><span class="st"> </span><span class="dv">0</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb42-14" title="14"><span class="st">  </span><span class="kw">left_join</span>(., data_site) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb42-15" title="15"><span class="st">  </span><span class="kw">rename</span>(<span class="dt">Latitude =</span> Lat, <span class="dt">Longitude =</span> Long) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb42-16" title="16"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">DatasetID =</span> <span class="st">&quot;DATA5.2&quot;</span>,</a>
+<a class="sourceLine" id="cb42-17" title="17">         <span class="dt">Area =</span> <span class="st">&quot;Caribbean&quot;</span>,</a>
+<a class="sourceLine" id="cb42-18" title="18">         <span class="dt">Country =</span> <span class="st">&quot;Panama&quot;</span>,</a>
+<a class="sourceLine" id="cb42-19" title="19">         <span class="dt">Archipelago =</span> <span class="st">&quot;Bocas del Toro&quot;</span>,</a>
+<a class="sourceLine" id="cb42-20" title="20">         <span class="dt">Latitude =</span> <span class="kw">as.numeric</span>(Latitude), <span class="co"># Convert Latitude to numeric</span></a>
+<a class="sourceLine" id="cb42-21" title="21">         <span class="dt">Longitude =</span> <span class="kw">as.numeric</span>(Longitude), <span class="co"># Convert Longitude to numeric</span></a>
+<a class="sourceLine" id="cb42-22" title="22">         <span class="dt">Depth =</span> Depth<span class="op">*</span><span class="fl">0.3048</span>) <span class="co"># Convert depth in feet to depth in meters</span></a></code></pre></div>
+<pre><code>## Joining, by = &quot;Site&quot;</code></pre>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb44-1" title="1"><span class="co"># 3. Export data ----</span></a>
+<a class="sourceLine" id="cb44-2" title="2"></a>
+<a class="sourceLine" id="cb44-3" title="3"><span class="kw">write.csv2</span>(data_main, <span class="st">&quot;./../data/reformatted/01-reformatted_DATA5.2.csv&quot;</span>, <span class="dt">row.names =</span> <span class="ot">FALSE</span>)</a>
+<a class="sourceLine" id="cb44-4" title="4"></a>
+<a class="sourceLine" id="cb44-5" title="5"><span class="co"># 4. Missing variables ----</span></a>
+<a class="sourceLine" id="cb44-6" title="6"></a>
+<a class="sourceLine" id="cb44-7" title="7"><span class="kw">setdiff</span>(selected_variables, <span class="kw">colnames</span>(data_main)) <span class="co"># Get names of missing variables</span></a></code></pre></div>
+<pre><code>## [1] &quot;Replicate&quot; &quot;Quadrat&quot;   &quot;Zone&quot;      &quot;Date&quot;      &quot;Method&quot;    &quot;Observer&quot;</code></pre>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb46-1" title="1"><span class="co"># 5. Remove useless datasets and variables ----</span></a>
+<a class="sourceLine" id="cb46-2" title="2"></a>
+<a class="sourceLine" id="cb46-3" title="3"><span class="kw">rm</span>(data_main, data_site)</a></code></pre></div>
 </div>
 </div>
 <div id="reproducibility" class="section level1">
 <h1>Reproducibility</h1>
-<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb35-1" title="1"><span class="co"># 1. Reproducibility ----</span></a>
-<a class="sourceLine" id="cb35-2" title="2"></a>
-<a class="sourceLine" id="cb35-3" title="3"><span class="kw">sessionInfo</span>()</a></code></pre></div>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb47-1" title="1"><span class="co"># 1. Reproducibility ----</span></a>
+<a class="sourceLine" id="cb47-2" title="2"></a>
+<a class="sourceLine" id="cb47-3" title="3"><span class="kw">sessionInfo</span>()</a></code></pre></div>
 <pre><code>## R version 3.6.3 (2020-02-29)
 ## Platform: x86_64-w64-mingw32/x64 (64-bit)
 ## Running under: Windows 10 x64 (build 18363)
@@ -1871,7 +1944,7 @@ div.tocify {
 ## [45] httr_1.4.1       rstudioapi_0.11  R6_2.4.1         nlme_3.1-147    
 ## [49] compiler_3.6.3</code></pre>
 <hr />
-<p>Jeremy WICQUART | <a href="mailto:jeremywicquart@gmail.com" class="email">jeremywicquart@gmail.com</a> | 2020-06-11 18:59:27</p>
+<p>Jeremy WICQUART | <a href="mailto:jeremywicquart@gmail.com" class="email">jeremywicquart@gmail.com</a> | 2020-06-15 11:21:19</p>
 </div>
 
 

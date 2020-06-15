@@ -74,7 +74,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-clean_DATA1.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA1.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -114,12 +114,14 @@ data_main <- data_main %>%
          Lat_side = str_split_fixed(Latitude, "°|'|\"", 4)[,4],
          Latitude = Lat_degree + (Lat_min/60) + (Lat_sec/3600),
          Latitude = ifelse(Lat_side == "N", Latitude, ifelse(Lat_side == "S", -Latitude, NA))) %>% # Convert Lat. coord.*
+  select(-Lat_degree, -Lat_min, -Lat_sec, -Lat_side) %>% # Delete useless variables
   mutate(Long_degree = as.numeric(str_split_fixed(Longitude, "°|'|\"", 4)[,1]),
          Long_min = as.numeric(str_split_fixed(Longitude, "°|'|\"", 4)[,2]),
          Long_sec = as.numeric(str_split_fixed(Longitude, "°|'|\"", 4)[,3]),
          Long_side = str_split_fixed(Longitude, "°|'|\"", 4)[,4],
          Longitude = Long_degree + (Long_min/60) + (Long_sec/3600),
          Longitude = ifelse(Long_side == "E", Longitude, ifelse(Long_side == "W", -Longitude, NA))) %>% # Convert Long. coord.*
+  select(-Long_degree, -Long_min, -Long_sec, -Long_side) %>% # Delete useless variables
   mutate(Replicate = str_sub(Replicate, start = 3, end = 3), # Extract the number of the replicate
          DatasetID = "DATA2",
          Area = "Caribbean") # Add variables absent in data (can be obtained through data contributor)
@@ -128,7 +130,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-clean_DATA2.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA2.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -177,7 +179,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-clean_DATA3.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA3.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -223,7 +225,7 @@ data_main <- data_main_1 %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-clean_DATA4.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA4.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -237,9 +239,82 @@ rm(data_main, data_main_1, data_main_2, data_code)
 
 ## Data contributor 5
 
-```{r DATA5}
+```{r DATA5.1}
 
+# 1. Import data ----
 
+# Main data
+data_main <- read_excel("./../data/raw/data_contributor_5/dataset5a.xlsx", sheet = "Sheet1")
+
+# Site data
+data_site <- read_excel("./../data/raw/data_contributor_5/dataset5c.xlsx", sheet = "Coordinates")
+
+# 2. Merge and modifications ----
+
+data_main <- data_main %>% 
+  select(-Total) %>% 
+  pivot_longer("ACANTHASTREA":"TURBINARIA", names_to = "Tax_ID", values_to = "Cover") %>% 
+  filter(Cover != 0) %>% 
+  left_join(., data_site) %>% 
+  rename(Year = YEAR, Replicate = "Site No", Latitude = Lat, Longitude = Long) %>% 
+  mutate(DatasetID = "DATA5.1",
+         Area = "Caribbean",
+         Country = "Panama",
+         Archipelago = "Bocas del Toro",
+         Latitude = as.numeric(Latitude), # Convert Latitude to numeric
+         Longitude = as.numeric(Longitude), # Convert Longitude to numeric
+         Depth = Depth*0.3048) # Convert depth in feet to depth in meters
+
+# 3. Export data ----
+
+write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA5.1.csv", row.names = FALSE)
+
+# 4. Missing variables ----
+
+setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
+
+# 5. Remove useless datasets and variables ----
+
+rm(data_main, data_site)
+
+```
+
+```{r DATA5.2}
+
+# 1. Import data ----
+
+# Main data
+data_main <- read_excel("./../data/raw/data_contributor_5/dataset5b.xlsx", sheet = "Sheet1")
+
+# Site data
+data_site <- read_excel("./../data/raw/data_contributor_5/dataset5c.xlsx", sheet = "Coordinates")
+
+# 2. Merge and modifications ----
+
+data_main <- data_main %>% 
+  pivot_longer("Abiotic":"Algae_other", names_to = "Tax_ID", values_to = "Cover") %>% 
+  filter(Cover != 0) %>% 
+  left_join(., data_site) %>% 
+  rename(Latitude = Lat, Longitude = Long) %>% 
+  mutate(DatasetID = "DATA5.2",
+         Area = "Caribbean",
+         Country = "Panama",
+         Archipelago = "Bocas del Toro",
+         Latitude = as.numeric(Latitude), # Convert Latitude to numeric
+         Longitude = as.numeric(Longitude), # Convert Longitude to numeric
+         Depth = Depth*0.3048) # Convert depth in feet to depth in meters
+
+# 3. Export data ----
+
+write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA5.2.csv", row.names = FALSE)
+
+# 4. Missing variables ----
+
+setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
+
+# 5. Remove useless datasets and variables ----
+
+rm(data_main, data_site)
 
 ```
 
