@@ -31,7 +31,7 @@ library(lubridate) # To transform date
 # 2. Create a vector of selected variables names to check which ones are missing ----
 
 selected_variables <- c("DatasetID", "Area", "Country", "Archipelago", 
-                        "Location", "Site", "Replicate", "Quadrat", "Zone", "Latitude", "Longitude", 
+                        "Location", "Site", "Replicate", "Zone", "Latitude", "Longitude", 
                         "Depth", "Year", "Date", "Method", "Observer", "Cover", "Tax_ID")
 
 ```
@@ -45,11 +45,11 @@ selected_variables <- c("DatasetID", "Area", "Country", "Archipelago",
 # 1. Import data ----
 
 # Main data
-data_main <- read_excel("./../data/raw/data_contributor_1/dataset1.xlsx", 
+data_main <- read_excel("./../data/01_raw/data_contributor_1/dataset1.xlsx", 
                         sheet = "Main data")
 
 # Substrate code data
-data_code <- read_excel("./../data/raw/data_contributor_1/dataset1.xlsx", 
+data_code <- read_excel("./../data/01_raw/data_contributor_1/dataset1.xlsx", 
                         sheet = "Substrate codes")
 
 # 2. Merge and modifications ----
@@ -74,7 +74,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA1.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA1.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -93,11 +93,11 @@ rm(data_main, data_code)
 # 1. Import data ----
 
 # Main data
-data_main <- read_excel("./../data/raw/data_contributor_2/dataset2.xlsx", 
+data_main <- read_excel("./../data/01_raw/data_contributor_2/dataset2.xlsx", 
                         sheet = "Transect")
 
 # Site data
-data_site <- read_excel("./../data/raw/data_contributor_2/dataset2.xlsx", 
+data_site <- read_excel("./../data/01_raw/data_contributor_2/dataset2.xlsx", 
                         sheet = "Informations")
 
 # 2. Merge and modifications ----
@@ -130,7 +130,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA2.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA2.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -150,15 +150,15 @@ rm(data_main, data_site)
 
 # Import first sheet
 
-data_main <- read_excel("./../data/raw/data_contributor_3/dataset3.xlsx", sheet = 1) %>% 
-  mutate(Site = excel_sheets("./../data/raw/data_contributor_3/dataset3.xlsx")[1])
+data_main <- read_excel("./../data/01_raw/data_contributor_3/dataset3.xlsx", sheet = 1) %>% 
+  mutate(Site = excel_sheets("./../data/01_raw/data_contributor_3/dataset3.xlsx")[1])
   
 # Make a loop to bind all sheets
 
-for(i in 2:length(excel_sheets("./../data/raw/data_contributor_3/dataset3.xlsx"))){
+for(i in 2:length(excel_sheets("./../data/01_raw/data_contributor_3/dataset3.xlsx"))){
   
-  data_main <- read_excel("./../data/raw/data_contributor_3/dataset3.xlsx", sheet = i) %>% 
-    mutate(Site = excel_sheets("./../data/raw/data_contributor_3/dataset3.xlsx")[i]) %>% 
+  data_main <- read_excel("./../data/01_raw/data_contributor_3/dataset3.xlsx", sheet = i) %>% 
+    mutate(Site = excel_sheets("./../data/01_raw/data_contributor_3/dataset3.xlsx")[i]) %>% 
     bind_rows(data_main, .)
   
 }
@@ -179,7 +179,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA3.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA3.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -198,13 +198,13 @@ rm(data_main, i)
 # 1. Import data ----
 
 # Main data 1
-data_main_1 <- read.csv("./../data/raw/data_contributor_4/dataset4a.csv", sep = ";")
+data_main_1 <- read.csv("./../data/01_raw/data_contributor_4/dataset4a.csv", sep = ";")
 
 # Main data 2
-data_main_2 <- read.csv("./../data/raw/data_contributor_4/dataset4b.csv", sep = ";")
+data_main_2 <- read.csv("./../data/01_raw/data_contributor_4/dataset4b.csv", sep = ";")
 
 # Substrate code
-data_code <- read.csv("./../data/raw/data_contributor_4/dataset4c.csv", sep = ";")
+data_code <- read.csv("./../data/01_raw/data_contributor_4/dataset4c.csv", sep = ";")
 
 # 2. Merge and modifications ----
 
@@ -225,7 +225,7 @@ data_main <- data_main_1 %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA4.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA4.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -244,10 +244,10 @@ rm(data_main, data_main_1, data_main_2, data_code)
 # 1. Import data ----
 
 # Main data
-data_main <- read_excel("./../data/raw/data_contributor_5/dataset5a.xlsx", sheet = "Sheet1")
+data_main <- read_excel("./../data/01_raw/data_contributor_5/dataset5a.xlsx", sheet = "Sheet1")
 
 # Site data
-data_site <- read_excel("./../data/raw/data_contributor_5/dataset5c.xlsx", sheet = "Coordinates")
+data_site <- read_excel("./../data/01_raw/data_contributor_5/dataset5c.xlsx", sheet = "Coordinates")
 
 # 2. Merge and modifications ----
 
@@ -267,7 +267,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA5.1.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA5.1.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 
@@ -284,10 +284,10 @@ rm(data_main, data_site)
 # 1. Import data ----
 
 # Main data
-data_main <- read_excel("./../data/raw/data_contributor_5/dataset5b.xlsx", sheet = "Sheet1")
+data_main <- read_excel("./../data/01_raw/data_contributor_5/dataset5b.xlsx", sheet = "Sheet1")
 
 # Site data
-data_site <- read_excel("./../data/raw/data_contributor_5/dataset5c.xlsx", sheet = "Coordinates")
+data_site <- read_excel("./../data/01_raw/data_contributor_5/dataset5c.xlsx", sheet = "Coordinates")
 
 # 2. Merge and modifications ----
 
@@ -306,7 +306,7 @@ data_main <- data_main %>%
 
 # 3. Export data ----
 
-write.csv2(data_main, "./../data/reformatted/01-reformatted_DATA5.2.csv", row.names = FALSE)
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA5.2.csv", row.names = FALSE)
 
 # 4. Missing variables ----
 

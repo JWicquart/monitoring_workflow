@@ -28,6 +28,11 @@ library(tidyverse) # Core tidyverse packages
 
 ```
 
+```{r}
+
+synthetic_data <- read.csv2("./../data/03_synthetic-dataset.csv") 
+
+```
 
 # Reproducibility
 

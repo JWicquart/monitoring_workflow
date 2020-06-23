@@ -28,7 +28,7 @@ On the project main page on GitHub, click on the green button `clone or download
 
 
 
-The **Table 1** describes the selected variables for the final benthic dataset. The variables 1 to 12 are spatial variables; the variables 13 and 14, are temporal variables; the variables 15 and 16, are methodological variables; the variables 17 to 22 are taxonomical variables; and the variable 23 is the metric variable.
+The **Table 1** describes the selected variables for the final benthic dataset. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 20 are taxonomical variables; and the variable 21 is the metric variable.
 
 
 
@@ -41,22 +41,20 @@ The **Table 1** describes the selected variables for the final benthic dataset. 
 | 5    | Location    | Factor  |      | Location or island within the country    |
 | 6    | Site        | Factor  |      | Site within the location                 |
 | 7    | Replicate   | Integer |      | Replicate ID                             |
-| 8    | Quadrat     | Integer |      | Quadrat ID                               |
-| 9    | Zone        | Factor  |      | Reef zone                                |
-| 10   | Latitude    | Numeric |      | Latitude of the site (*decimal format*)  |
-| 11   | Longitude   | Numeric |      | Longitude of the site (*decimal format*) |
-| 12   | Depth       | Numeric | m    | Mean depth                               |
-| 13   | Year        | Integer |      | Year                                     |
-| 14   | Date        | Date    |      | Date (*YYYY-MM-DD*)                      |
-| 15   | Method      | Factor  |      | Description of the method used           |
-| 16   | Observer    | Factor  |      | Name of the diver                        |
-| 17   | Category    | Factor  |      | See *Table 2*                            |
-| 18   | Group       | Factor  |      | See *Table 2*                            |
-| 19   | Shape       | Factor  |      | Hard coral shape                         |
-| 20   | Family      | Factor  |      | Family                                   |
-| 21   | Genus       | Factor  |      | Genus                                    |
-| 22   | Species     | Factor  |      | Species                                  |
-| 23   | Cover       | Numeric | %    | Cover percentage                         |
+| 8    | Zone        | Factor  |      | Reef zone                                |
+| 9    | Latitude    | Numeric |      | Latitude of the site (*decimal format*)  |
+| 10   | Longitude   | Numeric |      | Longitude of the site (*decimal format*) |
+| 11   | Depth       | Numeric | m    | Mean depth                               |
+| 12   | Year        | Integer |      | Year                                     |
+| 13   | Date        | Date    |      | Date (*YYYY-MM-DD*)                      |
+| 14   | Method      | Factor  |      | Description of the method used           |
+| 15   | Observer    | Factor  |      | Name of the diver                        |
+| 16   | Category    | Factor  |      | See *Table 2*                            |
+| 17   | Group       | Factor  |      | See *Table 2*                            |
+| 18   | Family      | Factor  |      | Family                                   |
+| 19   | Genus       | Factor  |      | Genus                                    |
+| 20   | Species     | Factor  |      | Species                                  |
+| 21   | Cover       | Numeric | %    | Cover percentage                         |
 
 
 

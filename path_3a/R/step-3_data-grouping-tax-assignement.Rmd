@@ -25,6 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # 1. Required packages ----
 
 library(tidyverse) # Core tidyverse packages
+library(formattable)
 
 ```
 
@@ -34,26 +35,126 @@ library(tidyverse) # Core tidyverse packages
 
 # 1. Get list of csv file ----
 
-files_list <- list.files(path = "./../data/reformatted")
+files_list <- list.files(path = "./../data/02_reformatted")
 
-# 2. Bind datasets using a loop ----
+# 2. Bind data sets using a loop ----
 
-# 2.1 Initialize synthetic dataset with first file --
+# 2.1 Initialize synthetic data set with first file --
 
-synthetic_data <- read.csv2(paste0("./../data/reformatted/", files_list[1]))
+synthetic_data <- read.csv2(paste0("./../data/02_reformatted/", files_list[1]))
 
 # 2.2 Bind with all other files --
 
 for(i in 2:length(files_list)){
   
-  dataset_i <- read.csv2(paste0("./../data/reformatted/", files_list[i]))
+  dataset_i <- read.csv2(paste0("./../data/02_reformatted/", files_list[i]))
   synthetic_data <- bind_rows(synthetic_data, dataset_i)
   
 }
 
-# 3. Remove useless datasets and variables ----
+# 3. Remove useless data sets and variables ----
 
 rm(files_list, dataset_i, i)
+
+```
+
+# Taxonomical categorisation
+
+```{r}
+
+# 1. Extract unique Tax_ID and create empty tax. variables ----
+
+current_unique_taxid <- synthetic_data %>% 
+  select(Tax_ID) %>% 
+  unique(.) %>% 
+  arrange(Tax_ID) %>% 
+  mutate(Category = NA, Group = NA, Family = NA, Genus = NA, Species = NA) %>% 
+  mutate_at(c("Category", "Group", "Family", "Genus", "Species"), ~as.character(.))
+
+# 2. Manually complete empty tax. variables for each unique Tax_ID ----
+
+# 2.A If older file exist --
+
+if(file.exists("./../data/03_tax-recategorisation.csv")){
+  
+  # 2.A.1 Import it -
+  
+  old_unique_taxid <- read.csv2("./../data/03_tax-recategorisation.csv")
+  
+  # 2.A.2 Find rows absent in the older file (old_unique_taxid) but present 
+  # in the current one (current_unique_taxid) -
+  
+  old_unique_taxid %>% 
+    anti_join(current_unique_taxid, ., by = c("Tax_ID")) %>% 
+    bind_rows(old_unique_taxid, .) %>%
+    arrange(Tax_ID) %>% 
+    write.csv2(., "./../data/03_tax-recategorisation.csv", row.names = FALSE)
+
+}else{
+  
+  # 2.B Else export it --
+  
+  current_unique_taxid %>% 
+    arrange(Tax_ID) %>% 
+    write.csv2(., "./../data/03_tax-recategorisation.csv", row.names = FALSE)
+  
+}
+
+# 3. Remove useless data sets ----
+
+rm(current_unique_taxid, old_unique_taxid)
+
+# ----------------------------------------------------------------------------------------- #
+# /!\          Before to run the next chunk code, fill the exported csv file:           /!\ #
+# /!\          Manually complete empty tax. variables for each unique Tax_ID            /!\ #
+# /!\  The text of the column "Tax_ID" must not be changed: it's the grouping variable  /!\ #
+# ----------------------------------------------------------------------------------------- #
+
+```
+
+```{r}
+
+# 4. Import the file and remove duplicated white space at the start, inside and end of string ----
+
+unique_taxid <- read.csv2("./../data/03_tax-recategorisation.csv") %>% 
+  mutate_at(c("Category", "Group", "Family", "Genus", "Species"), ~str_trim(., side = "both")) %>% 
+  mutate_at(c("Category", "Group", "Family", "Genus", "Species"), ~str_squish(.))
+
+# 5. Check if 'Genus' is correct (i.e. if it correspond to the first word of 'Species') ----
+
+genus_check <- unique_taxid %>%
+  filter(!is.na(Species))
+
+if(any((genus_check$Genus != str_split_fixed(genus_check$Species, " ", 2)[,1]) == FALSE) == FALSE){
+  stop("All genus names contained in the 'Species' variable are NOT identical to those in the 'Genus' variable")
+}
+
+# 6. Merge to add Category, Group, Genus and Species variables to the main data ----
+
+synthetic_data <- synthetic_data %>%
+  left_join(., unique_taxid)
+
+# 7. Control the unfilled categories (which will be removed) ----
+
+synthetic_data %>% 
+  filter(is.na(Category)) %>% 
+  select(DatasetID, Tax_ID) %>%
+  unique(.) %>% 
+  formattable(.) %>% 
+  as.datatable(., rownames = FALSE)
+
+# 8. Apply miscellaneous modifications and export the file ----
+
+synthetic_data %>% 
+  filter(!is.na(Category), # Remove rows containing NA for 'Category'
+         !is.na(Cover), # Remove rows containing NA for 'Cover'
+         Cover != 0) %>% # Remove rows where 'Cover' is equal to 0
+  group_by(DatasetID, Area, Country, Archipelago, Location, Site, Replicate,
+           Zone, Latitude, Longitude, Depth, Year, Date, Method, Observer, 
+           Category, Group, Family, Genus, Species) %>% 
+  summarise(Cover = sum(Cover)) %>% # Make the sum of percentage cover for identical levels
+  ungroup() %>% 
+  write.csv2(., "./../data/03_synthetic-dataset.csv", row.names = FALSE)
 
 ```
 
