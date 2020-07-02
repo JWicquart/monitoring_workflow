@@ -28,9 +28,246 @@ library(tidyverse) # Core tidyverse packages
 
 ```
 
+# Check duplicates
+
 ```{r}
 
 synthetic_data <- read.csv2("./../data/03_synthetic-dataset.csv") 
+
+```
+
+# Check errors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Check the total cover
+
+## First check
+
+```{r}
+
+# 1. Make the sum of percentage cover ----
+
+total_cover <- global_benthos_new %>% 
+  group_by(DatasetID, Area, Country, Archipelago, Location, Site, Zone, 
+           Latitude, Longitude, Year, Date, Replicate, Quadrat, Observer, Depth) %>% 
+  summarise(Total = sum(Cover))
+
+# 2. Print summary of percentage cover class by DatasetID ----
+
+total_cover %>% 
+  select(DatasetID, Total) %>% 
+  ddply(., .(DatasetID), summarize, 
+        Less_0 = length(which(Total < 0)), 
+        Between_0_100 = length(which(Total > 0 & Total < 100)), 
+        Equal_100 = length(which(Total == 100)), 
+        More_100 = length(which(Total > 100)),
+        Min = round(min(Total, na.rm = TRUE), 2),
+        Max = round(max(Total, na.rm = TRUE), 2)) %>% 
+  datatable(., rownames = FALSE,
+            colnames = c("Dataset", "Cover < 0", "0 < Cover < 100", "Cover = 100", "Cover > 100", "Min", "Max")) %>% 
+  formatStyle("Less_0", backgroundColor = "#e74c3c") %>% 
+  formatStyle("Between_0_100", backgroundColor = "#f4b350") %>% 
+  formatStyle("Equal_100", backgroundColor = "#16a085") %>% 
+  formatStyle("More_100", backgroundColor = "#e74c3c")
+
+# 3. Merge the sum with the main dataset ----
+
+global_benthos_new <- global_benthos_new %>% 
+  merge(., total_cover, by = c("DatasetID", "Area", "Country", "Archipelago",
+                      "Location", "Site", "Zone", "Latitude", "Longitude",
+                      "Year", "Date", "Replicate", "Quadrat", "Observer", "Depth"), all.x = TRUE)
+
+```
+
+## Adjust the cover
+
+```{r}
+
+# 1. Define the threshold ----
+
+treshold <- 101
+
+# 2. Adjust the cover (using the rule of three) ----
+
+global_benthos_new <- global_benthos_new %>% 
+  mutate(Cover = ifelse(Total > 100 & Total < treshold, (Cover*100)/Total, Cover))
+
+```
+
+## Second check
+
+```{r}
+
+# 1. Make the sum of percentage cover ----
+
+total_cover <- global_benthos_new %>% 
+  group_by(DatasetID, Area, Country, Archipelago, Location, Site, Zone, Latitude, 
+           Longitude, Year, Date, Replicate, Quadrat, Observer, Depth) %>% 
+  summarise(Total = sum(Cover))
+
+# 2. Print summary of percentage cover class by DatasetID ----
+
+total_cover %>% 
+  select(DatasetID, Total) %>% 
+  ddply(., .(DatasetID), summarize, 
+        Less_0 = length(which(Total < 0)), 
+        Between_0_100 = length(which(Total > 0 & Total < 100)), 
+        Equal_100 = length(which(Total == 100)), 
+        More_100 = length(which(Total > 100)),
+        Min = round(min(Total, na.rm = TRUE), 2),
+        Max = round(max(Total, na.rm = TRUE), 2)) %>% 
+  datatable(., rownames = FALSE,
+            colnames = c("Dataset", "Cover < 0", "0 < Cover < 100", "Cover = 100", "Cover > 100", "Min", "Max")) %>% 
+  formatStyle("Less_0", backgroundColor = "#e74c3c") %>% 
+  formatStyle("Between_0_100", backgroundColor = "#f4b350") %>% 
+  formatStyle("Equal_100", backgroundColor = "#16a085") %>% 
+  formatStyle("More_100", backgroundColor = "#e74c3c")
+
+# 3. Merge the sum with the main dataset ----
+
+global_benthos_new <- global_benthos_new %>% 
+  select(-Total) %>% 
+  merge(., total_cover, by = c("DatasetID", "Area", "Country", "Archipelago",
+                      "Location", "Site", "Zone", "Latitude", "Longitude",
+                      "Year", "Date", "Replicate", "Quadrat", "Observer", "Depth"), all.x = TRUE)
+
+# 4. Remove useless datasets and variables ----
+
+rm(total_cover)
+
+```
+
+## Remove rows
+
+```{r}
+
+# 1. Duplicate the dataset to calculate the amount of data removed ----
+
+global_benthos_before <- global_benthos_new
+
+# 2. Delete rows for which the total cover is lower than 0 or greater than 100 ----
+
+global_benthos_new <- global_benthos_new %>% 
+  filter(Total > 0 & Total <= 100)
+
+# 3. Table of the amount of data removed ----
+
+merge(count(global_benthos_before, DatasetID, name = "Before"),
+      count(global_benthos_new, DatasetID, name = "After"), by = "DatasetID", all.x = TRUE) %>% 
+  mutate(Removed = round(100-(100*(After/Before)), 2)) %>% 
+  formattable(., list(Removed = color_bar("#e74c3c"))) %>% 
+  as.datatable(., rownames = FALSE, colnames = c("Dataset", "Before filter", "After filter", "Data removed (%)"))
+
+```
+
+# Homogenize the country
+
+```{r}
+
+# 1. Homogenize the levels of factor for "Country" ----
+
+global_benthos_new <- global_benthos_new %>% 
+  ungroup() %>% 
+  mutate(Country = str_trim(Country),
+         Country = str_replace_all(Country, c("DominicanRep" = "Dominican Republic",
+                                              "Haïti" = "Haiti",
+                                              "Jordon" = "Jordan",
+                                              "KSA" = "Saudi Arabia",
+                                              "Sauid Arabia" = "Saudi Arabia",
+                                              "StKitts" = "Saint Kitts and Nevis",
+                                              "St Vincent & Grenadines" = "Saint Vincent and the Grenadines",
+                                              "StVincent" = "Saint Vincent and the Grenadines",
+                                              "United Kingdom" = "United-Kingdom",
+                                              "México" = "Mexico",
+                                              "Republic of the Marshall Islands" = "Marshall Islands",
+                                              "Republic of Marshall Islands" = "Marshall Islands",
+                                              "Republic of Seychelles" = "Seychelles",
+                                              "Republic of Palau" = "Palau",
+                                              "Republic of Maldives" = "Maldives",
+                                              "Sultanate of Oman" = "Oman")))
+
+```
+
+# Missing variables
+
+```{r}
+
+# 1. Control table of missing variables* by dataset ----
+# * variables present but only fill with NA
+
+global_benthos_new %>% 
+  group_by(DatasetID) %>% 
+  summarise_all(~(all(is.na(.)))) %>%
+  gather(2:ncol(.), key = Variable, value = State) %>%
+  filter(State == TRUE) %>% 
+  select(-State) %>% 
+  group_by(DatasetID) %>% 
+  mutate(Variable = paste(Variable, collapse = ", ")) %>% 
+  unique(.) %>% # Remove duplicates
+  arrange(DatasetID) %>% 
+  formattable(.) %>% 
+  as.datatable(., rownames = FALSE)
+
+```
+
+# Number of NA by variable
+
+```{r}
+
+# 1. Control table of number of NA by variable ----
+
+global_benthos_new %>%
+  group_by(DatasetID) %>%
+  summarise_all(~(sum(is.na(.))/length(.))*100) %>% 
+  formattable(., lapply(1:nrow(.), 
+                        function(row) {area(row, col = -1) ~ color_tile("transparent", "#ec644b")})) %>% 
+  as.datatable(., rownames = FALSE) %>% 
+  formatStyle(columns = colnames(.), fontSize = "20%")
+
+```
+
+# Export final file
+
+```{r}
+
+# 1. Export final file ----
+
+global_benthos_new %>% 
+  select(DatasetID, Area, Country, Archipelago, 
+         Location, Site, Zone, Latitude, Longitude, 
+         Depth, Year, Date, Replicate, Quadrat, Method, Observer, 
+         Category, Group, Family, Genus, Species, Cover) %>% # re-order variables
+  write.csv2(., "./../data/03-merge_all_all_all_benthos_NA.csv", row.names = FALSE) # Export the data
 
 ```
 

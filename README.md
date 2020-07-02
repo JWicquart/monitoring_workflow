@@ -10,6 +10,9 @@ Wicquart, J., Planes, S. (2020). A workflow to integrate ecological monitoring d
 
 On the project main page on GitHub, click on the green button `clone or download` and then click on `Download ZIP`
 
+**How to report bugs or issues?**
+
+Please report any bugs or issues [HERE](https://github.com/JWicquart/monitoring_workflow/issues).
 
 
 ## 1. Path 3.A - Taxonomical re-categorisation
@@ -24,7 +27,13 @@ On the project main page on GitHub, click on the green button `clone or download
 
 
 
-### 1.3 Variables selected
+
+### 1.3 Datasets description
+
+
+
+
+### 1.4 Variables selected
 
 
 
@@ -76,7 +85,12 @@ The **Table 1** describes the selected variables for the final benthic dataset. 
 
 
 
-### 2.3 Variables selected
+### 2.3 Datasets description
+
+
+
+
+### 2.4 Variables selected
 
 
 
