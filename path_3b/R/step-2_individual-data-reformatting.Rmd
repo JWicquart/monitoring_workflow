@@ -51,7 +51,9 @@ data_main <- read_excel("./../data/01_raw/data_contributor_1/dataset1.xlsx", she
 # Site data
 
 data_site <- read_excel("./../data/01_raw/data_contributor_1/dataset1.xlsx", sheet = "Sites") %>% 
-  rename(Observer = Diver)
+  rename(Observer = Diver) %>% 
+  mutate(Latitude = as.numeric(as.character(Latitude)),
+         Longitude = as.numeric(as.character(Longitude)))
 
 # 2. Merge and modifications ----
 
@@ -94,7 +96,7 @@ data_main <- read.csv2("./../data/01_raw/data_contributor_2/dataset2a.csv")
 
 # Site data
 
-data_site <- read.csv2("./../data/01_raw/data_contributor_2/dataset2b.csv")
+data_site <- read.csv2("./../data/01_raw/data_contributor_2/dataset2b.csv", dec = ".")
 
 # 2. Merge and modifications ----
 
@@ -193,7 +195,7 @@ for(i in 2:length(excel_sheets("./../data/01_raw/data_contributor_4/dataset4a.xl
 
 # Site data
 
-data_site <- read.csv2("./../data/01_raw/data_contributor_4/dataset4b.csv")
+data_site <- read.csv2("./../data/01_raw/data_contributor_4/dataset4b.csv", dec = ".")
 
 # 2. Merge and modifications ----
 
@@ -251,7 +253,9 @@ for(i in 2:length(list_maindata)){
 
 # Site data
 
-data_site <- read_excel("./../data/01_raw/data_contributor_5/dataset5d.xlsx", sheet = 1)
+data_site <- read_excel("./../data/01_raw/data_contributor_5/dataset5d.xlsx", sheet = 1) %>% 
+  mutate(Latitude = as.numeric(as.character(Latitude)),
+         Longitude = as.numeric(as.character(Longitude)))
 
 # 2. Merge and modifications ----
 

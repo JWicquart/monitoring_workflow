@@ -1,0 +1,187 @@
+---
+title: "Path 3.B - Step 3 - Data grouping and taxonomic assignement"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: "cosmo"
+    highlight: tango
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Load packages
+
+```{r base}
+
+# 1. Required packages ----
+
+library(tidyverse) # Core tidyverse packages
+library(formattable)
+library(rfishbase)
+library(Hmisc)
+
+```
+
+# Data grouping
+
+```{r warning=FALSE}
+
+# 1. Get list of csv file ----
+
+files_list <- list.files(path = "./../data/02_reformatted")
+
+# 2. Bind data sets using a loop ----
+
+# 2.1 Initialize synthetic data set with first file --
+
+synthetic_data <- read.csv2(paste0("./../data/02_reformatted/", files_list[1]))
+
+# 2.2 Bind with all other files --
+
+for(i in 2:length(files_list)){
+  
+  dataset_i <- read.csv2(paste0("./../data/02_reformatted/", files_list[i]))
+  synthetic_data <- bind_rows(synthetic_data, dataset_i)
+  
+}
+
+# 3. Remove useless data sets and variables ----
+
+rm(files_list, dataset_i, i)
+
+```
+
+# Taxonomical verification
+
+```{r}
+
+# 1. Remove possible mistakes, due to whitespace or case, in tax. names ----
+
+synthetic_data <- synthetic_data %>% 
+  mutate(Tax_ID = str_trim(Tax_ID, side = "both"), # Remove white space from start and end of the string 
+         Tax_ID = str_squish(Tax_ID), # Remove repeated whitespace inside the string
+         Tax_ID = tolower(Tax_ID), # Convert all letters to lowercase
+         Tax_ID = capitalize(Tax_ID)) # Convert first letter to uppercase
+
+# 2. Apply corrections on tax. names (if possible) and get higher tax. levels ----
+
+tax_names <- synthetic_data %>% 
+  select(Tax_ID) %>% 
+  unique() %>% 
+  rowwise() %>% 
+  mutate(Species = ifelse(is_empty(validate_names(Tax_ID)) == TRUE, 
+                          NA, 
+                          validate_names(Tax_ID))) %>% # Correct the names through fishbase
+  left_join(., load_taxa() %>% 
+              select(Family, Genus, Species)) %>% # Join to get higher tax. levels
+  select(Tax_ID, Family, Genus, Species) # Re-order variables
+
+# 3. Export the file of incorrect tax. names for a manual correction ----
+
+# If older file exist --
+
+if(file.exists("./../data/03_tax-verification.csv")){
+  
+  # A. Import it
+  
+  old_tax_names <- read.csv2("./../data/03_tax-verification.csv")
+  
+  # A. Find rows absent in the older file (old_tax_names) but present in the current one
+  
+  old_tax_names %>% 
+    anti_join(tax_names %>% 
+                filter(is.na(Species)),
+              .,
+              by = c("Tax_ID")) %>% 
+    bind_rows(old_tax_names, .) %>%
+    arrange(Tax_ID) %>% 
+    write.csv2(., "./../data/03_tax-verification.csv", row.names = FALSE)
+
+}else{
+  
+  # B. Else export it
+  
+  tax_names %>% 
+    filter(is.na(Species)) %>% 
+    arrange(Tax_ID) %>% 
+    write.csv2(., "./../data/03_tax-verification.csv", row.names = FALSE)
+  
+}
+
+# ----------------------------------------------------------------------------------------- #
+# /!\          Before to run the next chunk code, fill the exported csv file:           /!\ #
+# /!\          Manually complete empty tax. variables for each unique Tax_ID            /!\ #
+# /!\  The text of the column "Tax_ID" must not be changed: it's the grouping variable  /!\ #
+# ----------------------------------------------------------------------------------------- #
+
+```
+
+```{r}
+
+# 1. Import the file and remove duplicated white space at the start, inside and end of string ----
+
+incorrect_tax_names <- read.csv2("./../data/03_tax-verification.csv") %>% 
+  mutate_at(c("Family", "Genus", "Species"), ~str_trim(., side = "both")) %>% 
+  mutate_at(c("Family", "Genus", "Species"), ~str_squish(.))
+
+# 2. Check if 'Genus' is correct (i.e. if it correspond to the first word of 'Species') ----
+
+genus_check <- incorrect_tax_names %>%
+  filter(!is.na(Species))
+
+if(any((genus_check$Genus != str_split_fixed(genus_check$Species, " ", 2)[,1]) == FALSE) == FALSE){
+  stop("All genus names contained in the 'Species' variable are NOT identical to those in the 'Genus' variable")
+}
+
+# 3. Bind correct and incorrect Tax_ID, and join with main data ----
+
+synthetic_data <- tax_names %>%
+  filter(!(is.na(Species))) %>% 
+  bind_rows(., incorrect_tax_names) %>% 
+  right_join(synthetic_data, .)
+
+# 7. Control the unfilled categories (which will be removed) ----
+
+synthetic_data %>% 
+  filter(is.na(Family)) %>% 
+  select(DatasetID, Tax_ID) %>%
+  unique(.) %>% 
+  formattable(.) %>% 
+  as.datatable(., rownames = FALSE)
+
+# 8. Apply miscellaneous modifications and export the file ----
+
+synthetic_data %>% 
+  filter(!is.na(Family), # Remove rows containing NA for 'Family'
+         !is.na(Density), # Remove rows containing NA for 'Density'
+         Density != 0) %>% # Remove rows where 'Density' is equal to 0
+  group_by(DatasetID, Area, Country, Archipelago, Location, Site, Replicate,
+           Zone, Latitude, Longitude, Depth, Year, Date, Method, Observer, 
+           Family, Genus, Species, Size) %>% 
+  summarise(Density = sum(Density)) %>% # Make the sum of density for identical levels
+  ungroup() %>% 
+  write.csv2(., "./../data/03_synthetic-dataset.csv", row.names = FALSE)
+
+```
+
+# Reproducibility
+
+```{r reprod}
+
+# 1. Reproducibility ----
+
+sessionInfo()
+
+```
+
+---
+Jeremy WICQUART | jeremywicquart@gmail.com | `r format(Sys.time())`
