@@ -45,9 +45,11 @@ selected_variables <- c("DatasetID", "Area", "Country", "Archipelago",
 # 1. Import data ----
 
 # Main data
+
 data_main <- read_excel("./../data/01_raw/data_contributor_1/dataset1.xlsx", sheet = "Data")
 
 # Site data
+
 data_site <- read_excel("./../data/01_raw/data_contributor_1/dataset1.xlsx", sheet = "Sites") %>% 
   rename(Observer = Diver)
 
@@ -87,9 +89,11 @@ rm(data_main, data_site)
 # 1. Import data ----
 
 # Main data
+
 data_main <- read.csv2("./../data/01_raw/data_contributor_2/dataset2a.csv")
 
 # Site data
+
 data_site <- read.csv2("./../data/01_raw/data_contributor_2/dataset2b.csv")
 
 # 2. Merge and modifications ----
@@ -128,12 +132,15 @@ rm(data_main, data_site)
 # 1. Import data ----
 
 # Main data
+
 data_main <- read_excel("./../data/01_raw/data_contributor_3/dataset3.xlsx", sheet = 1)
 
 # Site data
+
 data_site <- read_excel("./../data/01_raw/data_contributor_3/dataset3.xlsx", sheet = 2)
 
 # Code data
+
 data_code <- read_excel("./../data/01_raw/data_contributor_3/dataset3.xlsx", sheet = 3)
 
 # 2. Merge and modifications ----
@@ -162,6 +169,116 @@ setdiff(selected_variables, colnames(data_main)) # Get names of missing variable
 # 5. Remove useless datasets and variables ----
 
 rm(data_main, data_site, data_code)
+
+```
+
+## Data contributor 4
+
+```{r}
+
+# 1. Import data ----
+
+# Import first sheet
+
+data_main <- read_excel("./../data/01_raw/data_contributor_4/dataset4a.xlsx", sheet = 1)
+  
+# Make a loop to bind all sheets
+
+for(i in 2:length(excel_sheets("./../data/01_raw/data_contributor_4/dataset4a.xlsx"))){
+  
+  data_main <- read_excel("./../data/01_raw/data_contributor_4/dataset4a.xlsx", sheet = i) %>% 
+    bind_rows(data_main, .)
+  
+}
+
+# Site data
+
+data_site <- read.csv2("./../data/01_raw/data_contributor_4/dataset4b.csv")
+
+# 2. Merge and modifications ----
+
+data_main <- data_main %>% 
+  group_by(Site, StationName, Species, MeanSize) %>% 
+  summarise(NbFishes = sum(NbFishes, na.rm = TRUE)) %>% # Make the sum of fish by species and length
+  ungroup() %>% 
+  left_join(., data_site) %>% # Join main data with site data
+  rename(Replicate = StationName, Tax_ID = Species, Density = NbFishes, 
+         Size = MeanSize, Location = Island, Depth = Depth_ft) %>% 
+  mutate(Date = format(strptime(as.character(Date), "%d/%m/%Y"), "%Y-%m-%d"), # Change the date format
+         Depth = Depth/3.281, # Convert depth from feet to meters
+         Replicate = str_sub(Replicate, 3, 3)) %>% # Extract only the number of replicate 
+  mutate(DatasetID = "DATA4",
+         Area = "Pacific",
+         Archipelago = "Solomon Islands",
+         Method = "Belt transect") # Add variables absent in data (can be obtained through data contributor)
+
+# 3. Export data ----
+
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA4.csv", row.names = FALSE)
+
+# 4. Missing variables ----
+
+setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
+
+# 5. Remove useless datasets and variables ----
+
+rm(data_main, data_site)
+
+```
+
+## Data contributor 5
+
+```{r}
+
+# 1. Import data ----
+
+# List of files containing main data (can be done automatically if the number of files is too important)
+
+list_maindata <- c("dataset5a", "dataset5b", "dataset5c")
+
+# Import first sheet
+
+data_main <- read_excel(paste0("./../data/01_raw/data_contributor_5/", list_maindata[1], ".xlsx"), sheet = 1)
+
+# Make a loop to bind all files
+
+for(i in 2:length(list_maindata)){
+  
+  data_main <- read_excel(paste0("./../data/01_raw/data_contributor_5/", list_maindata[i], ".xlsx"), sheet = 1) %>% 
+    bind_rows(data_main, .)
+    
+}
+
+# Site data
+
+data_site <- read_excel("./../data/01_raw/data_contributor_5/dataset5d.xlsx", sheet = 1)
+
+# 2. Merge and modifications ----
+
+data_main <- data_main %>% 
+  rename(Code = Site, Tax_ID = Species, Density = Abundance, Size = Length) %>% 
+  group_by(Code, Tax_ID, Size) %>% 
+  summarise(Density = sum(Density, na.rm = TRUE)) %>% # Make the sum of fish by species and length
+  ungroup() %>% 
+  left_join(., data_site) %>% # Extract only the number of replicate 
+  mutate(Replicate = str_sub(Code, 4, 4)) %>% 
+  select(-Code) %>% 
+  mutate(DatasetID = "DATA5",
+         Area = "Pacific",
+         Country = "Republic of Fiji",
+         Archipelago = "Fiji Islands") # Add variables absent in data (can be obtained through data contributor)
+
+# 3. Export data ----
+
+write.csv2(data_main, "./../data/02_reformatted/02-reformatted_DATA5.csv", row.names = FALSE)
+
+# 4. Missing variables ----
+
+setdiff(selected_variables, colnames(data_main)) # Get names of missing variables
+
+# 5. Remove useless datasets and variables ----
+
+rm(data_main, data_site, i)
 
 ```
 

@@ -1,0 +1,10 @@
+Site;StationName;Latitude;Longitude;Island;Country;Year;Date;Depth_ft
+ST_A;TR1;-9.779571;161.946865;Ulawa Island;Solomon Islands;2018;21/06/2018;29
+ST_A;TR2;-9.740727;161.994198;Ulawa Island;Solomon Islands;2018;21/06/2018;29
+ST_A;TR3;-9.713754;162.001148;Ulawa Island;Solomon Islands;2018;21/06/2018;29
+ST_B;TR1;-10.666480;161.675360;San Cristobal Island;Solomon Islands;2018;22/06/2018;39
+ST_B;TR2;-10.653073;161.660573;San Cristobal Island;Solomon Islands;2018;22/06/2018;39
+ST_B;TR3;-10.687719;161.688793;San Cristobal Island;Solomon Islands;2018;22/06/2018;39
+ST_C;TR1;-10.289002;161.762155;Uki Ni Massi Island;Solomon Islands;2018;24/06/2018;23
+ST_C;TR2;-10.211129;161.710578;Uki Ni Massi Island;Solomon Islands;2018;24/06/2018;23
+ST_C;TR3;-10.216611;161.747674;Uki Ni Massi Island;Solomon Islands;2018;24/06/2018;23
