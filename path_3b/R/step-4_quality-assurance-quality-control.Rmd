@@ -1,5 +1,5 @@
 ---
-title: "Path 3.A - Step 4 - Quality assurance and quality control"
+title: "Path 3.B - Step 4 - Quality assurance and quality control"
 date: "`r Sys.Date()`"
 output: 
   html_document:
@@ -110,7 +110,7 @@ for (i in 1:length(quali_var)) {
 
 # 1.1 Vector of variables names to plot --
 
-quanti_var <- c("Depth", "Year")
+quanti_var <- c("Depth", "Year", "Density", "Size")
 
 # 1.2 Make a for loop to plot each variable --
 
@@ -131,39 +131,9 @@ for (i in 1:length(quanti_var)) {
 
 ```
 
-## Metric variable
-
 ```{r}
 
-# 1. Make the sum of percentage cover by sampling unit ----
-
-total_cover <- synthetic_data %>% 
-  group_by(DatasetID, Area, Country, Archipelago, Location, Site, Zone, 
-           Latitude, Longitude, Year, Date, Replicate, Observer, Depth) %>% 
-  summarise(Total = sum(Cover))
-
-# 2. Table of percentage cover class by DatasetID ----
-
-total_cover %>% 
-  select(DatasetID, Total) %>% 
-  group_by(DatasetID) %>% 
-  summarise(Less_0 = length(which(Total < 0)), 
-            Between_0_100 = length(which(Total > 0 & Total < 100)), 
-            Equal_100 = length(which(Total == 100)), 
-            More_100 = length(which(Total > 100)),
-            Min = round(min(Total, na.rm = TRUE), 2),
-            Max = round(max(Total, na.rm = TRUE), 2)) %>% 
-  datatable(., rownames = FALSE,
-            colnames = c("Dataset", "Cover < 0", "0 < Cover < 100", "Cover = 100", "Cover > 100", "Min", "Max")) %>% 
-  formatStyle("Less_0", backgroundColor = "#e74c3c") %>% 
-  formatStyle("Between_0_100", backgroundColor = "#f4b350") %>% 
-  formatStyle("Equal_100", backgroundColor = "#16a085") %>% 
-  formatStyle("More_100", backgroundColor = "#e74c3c")
-
-# 3. Join the sum with main data ----
-
-synthetic_data <- synthetic_data %>%
-  left_join(., total_cover)
+# Tbl
 
 ```
 
@@ -190,7 +160,8 @@ synthetic_data %>%
 # 1. Remove rows with errors ----
 
 synthetic_data_clean <- synthetic_data %>% 
-  filter(Total > 0 & Total <= 100)
+  filter(Density >= 0, # Remove negative values and NA for Density
+         Size >= 0 | is.na(Size)) # Remove negative values for Size
 
 # 2. Number and percentage of rows removed by dataset ----
 
@@ -217,7 +188,7 @@ synthetic_data_clean %>%
   select(DatasetID, Area, Country, Archipelago, 
          Location, Site, Zone, Latitude, Longitude, 
          Depth, Year, Date, Replicate, Method, Observer, 
-         Category, Group, Family, Genus, Species, Cover) %>% # Re-order variables
+         Family, Genus, Species, Density, Size) %>% # Re-order variables
   write.csv2(., "./../data/04_final-synthetic-dataset.csv", row.names = FALSE) # Export the data
 
 ```

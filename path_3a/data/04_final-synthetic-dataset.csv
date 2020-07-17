@@ -1,0 +1,938 @@
+"DatasetID";"Area";"Country";"Archipelago";"Location";"Site";"Zone";"Latitude";"Longitude";"Depth";"Year";"Date";"Replicate";"Method";"Observer";"Category";"Group";"Family";"Genus";"Species";"Cover"
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";1;"Point Intercept Transect";"LM";"Abiotic";"Rubble";NA;NA;NA;2
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";1;"Point Intercept Transect";"LM";"Abiotic";"Sand";NA;NA;NA;34
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";1;"Point Intercept Transect";"LM";"Algae";"Macroalgae";NA;NA;NA;64
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";2;"Point Intercept Transect";"RS";"Abiotic";"Rock";NA;NA;NA;2
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";2;"Point Intercept Transect";"RS";"Abiotic";"Rubble";NA;NA;NA;4
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";2;"Point Intercept Transect";"RS";"Abiotic";"Sand";NA;NA;NA;10
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";2;"Point Intercept Transect";"RS";"Algae";"Coralline algae";"Porolithaceae";"Porolithon";NA;2
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";2;"Point Intercept Transect";"RS";"Algae";"Macroalgae";NA;NA;NA;82
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";3;"Point Intercept Transect";"LS";"Abiotic";"Rock";NA;NA;NA;2
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";3;"Point Intercept Transect";"LS";"Abiotic";"Rubble";NA;NA;NA;10
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";3;"Point Intercept Transect";"LS";"Abiotic";"Sand";NA;NA;NA;34
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";3;"Point Intercept Transect";"LS";"Algae";"Macroalgae";NA;NA;NA;46
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";3;"Point Intercept Transect";"LS";"Algae";"Turf algae";NA;NA;NA;4
+"DATA1";"Pacific";"USA";"Mariana Islands";"Guam";"Coco's Island";"Fringing reef";13,239981;144,665624;NA;2014;"2014-05-06";3;"Point Intercept Transect";"LS";"Hard living coral";NA;NA;NA;NA;4
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;1;NA;NA;"Algae";"Macroalgae";NA;NA;NA;10
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;1;NA;NA;"Algae";"Turf algae";NA;NA;NA;24
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;22
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;24
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;1;NA;NA;"Algae";"Macroalgae";NA;NA;NA;25
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;1;NA;NA;"Algae";"Turf algae";NA;NA;NA;22
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;6
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;1;NA;NA;"Algae";"Macroalgae";NA;NA;NA;15
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;1;NA;NA;"Algae";"Turf algae";NA;NA;NA;23
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;18
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2010;NA;2;NA;NA;"Algae";"Macroalgae";NA;NA;NA;1
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2010;NA;2;NA;NA;"Algae";"Turf algae";NA;NA;NA;27
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2010;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;24
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2010;NA;2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;18
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2015;NA;2;NA;NA;"Algae";"Macroalgae";NA;NA;NA;14
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2015;NA;2;NA;NA;"Algae";"Turf algae";NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2015;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2015;NA;2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;22
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2020;NA;2;NA;NA;"Algae";"Macroalgae";NA;NA;NA;23
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2020;NA;2;NA;NA;"Algae";"Turf algae";NA;NA;NA;6
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2020;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;16
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;6;2020;NA;2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;26
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;3;NA;NA;"Algae";"Macroalgae";NA;NA;NA;21
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;3;NA;NA;"Algae";"Turf algae";NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;13
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2010;NA;3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;37
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;3;NA;NA;"Algae";"Macroalgae";NA;NA;NA;12
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;3;NA;NA;"Algae";"Turf algae";NA;NA;NA;22
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;33
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2015;NA;3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;3;NA;NA;"Algae";"Macroalgae";NA;NA;NA;16
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;3;NA;NA;"Algae";"Turf algae";NA;NA;NA;17
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;26
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;8;2020;NA;3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2010;NA;4;NA;NA;"Algae";"Macroalgae";NA;NA;NA;22
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2010;NA;4;NA;NA;"Algae";"Turf algae";NA;NA;NA;29
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2010;NA;4;NA;NA;"Hard living coral";NA;NA;NA;NA;9
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2010;NA;4;NA;NA;"Other fauna";"Porifera";NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2015;NA;4;NA;NA;"Algae";"Macroalgae";NA;NA;NA;37
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2015;NA;4;NA;NA;"Algae";"Turf algae";NA;NA;NA;43
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2015;NA;4;NA;NA;"Hard living coral";NA;NA;NA;NA;15
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2015;NA;4;NA;NA;"Other fauna";"Porifera";NA;NA;NA;5
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2020;NA;4;NA;NA;"Algae";"Macroalgae";NA;NA;NA;30
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2020;NA;4;NA;NA;"Algae";"Turf algae";NA;NA;NA;12
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2020;NA;4;NA;NA;"Hard living coral";NA;NA;NA;NA;1
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;7;2020;NA;4;NA;NA;"Other fauna";"Porifera";NA;NA;NA;29
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2010;NA;5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;18
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2010;NA;5;NA;NA;"Algae";"Turf algae";NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2010;NA;5;NA;NA;"Hard living coral";NA;NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2010;NA;5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;7
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2015;NA;5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;18
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2015;NA;5;NA;NA;"Algae";"Turf algae";NA;NA;NA;16
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2015;NA;5;NA;NA;"Hard living coral";NA;NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2015;NA;5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2020;NA;5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;16
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2020;NA;5;NA;NA;"Algae";"Turf algae";NA;NA;NA;15
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2020;NA;5;NA;NA;"Hard living coral";NA;NA;NA;NA;27
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Discovery Bay";NA;18,4665555555556;-77,4032777777778;10;2020;NA;5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;22
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;1;NA;NA;"Algae";"Macroalgae";NA;NA;NA;24
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;1;NA;NA;"Algae";"Turf algae";NA;NA;NA;12
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;7
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;21
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2015;NA;1;NA;NA;"Algae";"Macroalgae";NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2015;NA;1;NA;NA;"Algae";"Turf algae";NA;NA;NA;4
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2015;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2015;NA;1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;30
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2020;NA;1;NA;NA;"Algae";"Macroalgae";NA;NA;NA;14
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2020;NA;1;NA;NA;"Algae";"Turf algae";NA;NA;NA;24
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2020;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;41
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2020;NA;1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;15
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2010;NA;2;NA;NA;"Algae";"Macroalgae";NA;NA;NA;25
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2010;NA;2;NA;NA;"Algae";"Turf algae";NA;NA;NA;26
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2010;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;11
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2010;NA;2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;11
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2015;NA;2;NA;NA;"Algae";"Macroalgae";NA;NA;NA;10
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2015;NA;2;NA;NA;"Algae";"Turf algae";NA;NA;NA;31
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2015;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;14
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2015;NA;2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;26
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2020;NA;2;NA;NA;"Algae";"Macroalgae";NA;NA;NA;16
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2020;NA;2;NA;NA;"Algae";"Turf algae";NA;NA;NA;21
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2020;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;13
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;12;2020;NA;2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;21
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;3;NA;NA;"Algae";"Macroalgae";NA;NA;NA;28
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;3;NA;NA;"Algae";"Turf algae";NA;NA;NA;10
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;21
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;13
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2015;NA;3;NA;NA;"Algae";"Macroalgae";NA;NA;NA;25
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2015;NA;3;NA;NA;"Algae";"Turf algae";NA;NA;NA;11
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2015;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;27
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2015;NA;3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;10
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;3;NA;NA;"Algae";"Macroalgae";NA;NA;NA;12
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;3;NA;NA;"Algae";"Turf algae";NA;NA;NA;17
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;41
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;23
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;4;NA;NA;"Algae";"Macroalgae";NA;NA;NA;15
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;4;NA;NA;"Algae";"Turf algae";NA;NA;NA;17
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;4;NA;NA;"Hard living coral";NA;NA;NA;NA;9
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2010;NA;4;NA;NA;"Other fauna";"Porifera";NA;NA;NA;14
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2015;NA;4;NA;NA;"Algae";"Turf algae";NA;NA;NA;29
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2015;NA;4;NA;NA;"Hard living coral";NA;NA;NA;NA;20
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2015;NA;4;NA;NA;"Other fauna";"Porifera";NA;NA;NA;30
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2020;NA;4;NA;NA;"Algae";"Turf algae";NA;NA;NA;19
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;5;2020;NA;4;NA;NA;"Other fauna";"Porifera";NA;NA;NA;31
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;29
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;5;NA;NA;"Algae";"Turf algae";NA;NA;NA;10
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;5;NA;NA;"Hard living coral";NA;NA;NA;NA;15
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2010;NA;5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;30
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2015;NA;5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;12
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2015;NA;5;NA;NA;"Hard living coral";NA;NA;NA;NA;29
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2015;NA;5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;37
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;6
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;5;NA;NA;"Algae";"Turf algae";NA;NA;NA;11
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;5;NA;NA;"Hard living coral";NA;NA;NA;NA;26
+"DATA2";"Caribbean";"Jamaica";NA;NA;"Montego Bay";NA;18,4838055555556;-77,9456944444444;10;2020;NA;5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;32
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Abiotic";NA;NA;NA;NA;72,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Algae";NA;"Halimedaceae";"Halimeda";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Merulina";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Pectinia";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Hard living coral";NA;NA;"Plerogyra";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Abiotic";NA;NA;NA;NA;59,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Algae";NA;"Halimedaceae";"Halimeda";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Leptoria";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Pectinia";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;5,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;3,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Abiotic";NA;NA;NA;NA;64,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Algae";NA;"Halimedaceae";"Halimeda";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Hydnophora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;3,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;3,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Hard living coral";NA;NA;"Plerogyra";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";3;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Abiotic";"Sand";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Abiotic";NA;NA;NA;NA;61,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Algae";"Turf algae";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Algae";NA;"Halimedaceae";"Halimeda";NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Pectinia";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;4,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";4;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Abiotic";"Sand";NA;NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Abiotic";NA;NA;NA;NA;68
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Algae";"Turf algae";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Algae";NA;"Halimedaceae";"Halimeda";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Anacropora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Echinophyllia";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Hydnophora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Leptoria";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Pectinia";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;4,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;3,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Hard living coral";NA;NA;"Plerogyra";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Coconut Bay";"Outer_Reef_East";-14,680205;145,47366;3;2010;"2010-05-11";5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";1;NA;NA;"Abiotic";NA;NA;NA;NA;16,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";1;NA;NA;"Algae";"Turf algae";NA;NA;NA;20
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";1;NA;NA;"Hard living coral";NA;"Fungiidae";"Ctenactis";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;60
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;9,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Abiotic";NA;NA;NA;NA;15,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;11,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Algae";"Turf algae";NA;NA;NA;41,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Algae";NA;"Halimedaceae";"Halimeda";NA;4,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;8,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;7,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Abiotic";NA;NA;NA;NA;15,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Algae";"Turf algae";NA;NA;NA;16
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Lobophyllia";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Hard living coral";NA;"Montastraeidae";"Montastraea";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;56,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";2;NA;NA;"Abiotic";"Rubble";NA;NA;NA;0,816326530612245
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;24,0816326530612
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";2;NA;NA;"Abiotic";NA;NA;NA;NA;18,7755102040816
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";2;NA;NA;"Algae";"Turf algae";NA;NA;NA;26,9387755102041
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";16,734693877551
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;12,6530612244898
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Abiotic";"Rubble";NA;NA;NA;7,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;36,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Abiotic";NA;NA;NA;NA;12,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Algae";"Turf algae";NA;NA;NA;16,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";10
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;14,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Abiotic";"Sand";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Abiotic";NA;NA;NA;NA;21,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Algae";"Turf algae";NA;NA;NA;21,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Fungiidae";"Ctenactis";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Montastraeidae";"Montastraea";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";10,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;41,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Abiotic";"Rubble";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Abiotic";"Sand";NA;NA;NA;15,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Abiotic";NA;NA;NA;NA;15,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Algae";"Turf algae";NA;NA;NA;26
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Echinophyllia";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";6,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;34
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";4;NA;NA;"Hard living coral";NA;NA;"Plerogyra";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Abiotic";"Rubble";NA;NA;NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Abiotic";"Sand";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Abiotic";NA;NA;NA;NA;17,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Algae";"Coralline algae";NA;NA;NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Algae";"Turf algae";NA;NA;NA;29,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;3,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Fungiidae";"Sandalolitha";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Montastraeidae";"Montastraea";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";7,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;35,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;3;2010;"2010-05-12";5;NA;NA;"Other fauna";NA;NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";5;NA;NA;"Abiotic";"Rubble";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";5;NA;NA;"Abiotic";"Sand";NA;NA;NA;20,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";5;NA;NA;"Abiotic";NA;NA;NA;NA;15,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";5;NA;NA;"Algae";"Turf algae";NA;NA;NA;24
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";10,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"MacGillivray";"Inner_Reef";-14,649616;145,487449;10;2010;"2010-05-12";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;27,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Abiotic";NA;NA;NA;NA;12,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;22,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Algae";"Turf algae";NA;NA;NA;12,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Algae";NA;NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;8,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;15,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;4,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;7,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Platygyra";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Montastraeidae";"Montastraea";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Poritidae";"Goniopora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";1;NA;NA;"Other fauna";NA;NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Abiotic";NA;NA;NA;NA;8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Algae";"Macroalgae";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Algae";"Turf algae";NA;NA;NA;10,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;20
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;7,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Agariciidae";"Leptoseris";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Diploastraeidae";"Diploastrea";NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;8,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;20
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";1;NA;NA;"Other fauna";NA;NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Abiotic";NA;NA;NA;NA;4,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;29,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Algae";"Turf algae";NA;NA;NA;9,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;15,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;13,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;7,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Oxypora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;3,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;5,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Leptoria";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;4,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";2;NA;NA;"Other fauna";NA;NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Abiotic";NA;NA;NA;NA;9,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Algae";"Macroalgae";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Algae";"Turf algae";NA;NA;NA;13,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;20
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;6,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;4,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Merulinidae";"Leptoria";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";5,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;22,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";2;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Abiotic";NA;NA;NA;NA;6,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;31,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Algae";"Turf algae";NA;NA;NA;19,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;12
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;10,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;4,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";3;NA;NA;"Other fauna";NA;NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Abiotic";NA;NA;NA;NA;10,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Algae";"Macroalgae";NA;NA;NA;3,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Algae";"Turf algae";NA;NA;NA;11,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;23,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Echinophyllia";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;28
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Abiotic";"Sand";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Abiotic";NA;NA;NA;NA;18,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Algae";"Coralline algae";NA;NA;NA;24
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Algae";"Macroalgae";NA;NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Algae";"Turf algae";NA;NA;NA;12
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;8,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;11,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";4;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Abiotic";NA;NA;NA;NA;8,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Algae";"Coralline algae";NA;NA;NA;3,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Algae";"Macroalgae";NA;NA;NA;3,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Algae";"Turf algae";NA;NA;NA;18,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;12,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;10,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;31,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";4;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Abiotic";NA;NA;NA;NA;6,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Algae";"Coralline algae";NA;NA;NA;28,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Algae";"Turf algae";NA;NA;NA;9,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;12
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;13,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;2,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Lobophyllia";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;5,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Goniastrea";NA;6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Hydnophora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Leptoria";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;5,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;3;2010;"2010-06-13";5;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Abiotic";NA;NA;NA;NA;11,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Algae";"Coralline algae";NA;NA;NA;6,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Algae";"Macroalgae";NA;NA;NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Algae";"Turf algae";NA;NA;NA;14,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;11,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;7,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;1,6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Faviidae";"Favia";NA;6
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Faviidae";NA;NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;2,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Leptoria";NA;1,2
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Merulinidae";"Platygyra";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Milleporidae";"Millepora";NA;0,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";"Porites rus";0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;28,4
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,8
+"DATA3";"Australia";"Australia";NA;"Lizard Island";"Palfrey Island";"Outer_Reef_West";-14,691462;145,441221;10;2010;"2010-06-13";5;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Abiotic";"Rock";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;11
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Hard living coral";NA;NA;NA;NA;41
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";1;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;15
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Algae";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Hard dead coral";NA;NA;NA;NA;30
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Hard living coral";NA;NA;NA;NA;30
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";1;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Abiotic";"Rock";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Abiotic";"Rubble";NA;NA;NA;11
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Hard living coral";NA;NA;NA;NA;39
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";2;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";2;NA;NA;"Hard dead coral";NA;NA;NA;NA;25
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";2;NA;NA;"Hard living coral";NA;NA;NA;NA;33
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";2;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";2;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Abiotic";"Rock";NA;NA;NA;13
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Abiotic";"Rubble";NA;NA;NA;13
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Hard living coral";NA;NA;NA;NA;47
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2013;"2013-03-12";3;NA;NA;"Other fauna";"Zoantharia";"Sphenopidae";"Palythoa";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Hard dead coral";NA;NA;NA;NA;45
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Hard living coral";NA;NA;NA;NA;27
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S1";"Outer Slope";-0,310807;73,414246;NA;2017;"2017-05-15";3;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Abiotic";"Rock";NA;NA;NA;19
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;4
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;23
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Hard living coral";NA;NA;NA;NA;25
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;4
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";1;NA;NA;"Other fauna";"Zoantharia";"Sphenopidae";"Palythoa";NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";1;NA;NA;"Abiotic";"Rock";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;30
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";1;NA;NA;"Hard bleached coral";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";1;NA;NA;"Hard dead coral";NA;NA;NA;NA;30
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";1;NA;NA;"Hard living coral";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";1;NA;NA;"Other fauna";"Porifera";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Abiotic";"Rock";NA;NA;NA;14
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Abiotic";"Rubble";NA;NA;NA;11
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;9
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;12
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Hard living coral";NA;NA;NA;NA;36
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";2;NA;NA;"Other fauna";"Zoantharia";"Sphenopidae";"Palythoa";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Abiotic";"Rock";NA;NA;NA;15
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Abiotic";"Rubble";NA;NA;NA;13
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Algae";NA;NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Hard dead coral";NA;NA;NA;NA;40
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Hard living coral";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";2;NA;NA;"Other fauna";"Porifera";NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Abiotic";"Rock";NA;NA;NA;21
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Abiotic";"Rubble";NA;NA;NA;12
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;9
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Hard living coral";NA;NA;NA;NA;32
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2013;"2013-03-12";3;NA;NA;"Other fauna";"Zoantharia";"Sphenopidae";"Palythoa";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";3;NA;NA;"Algae";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";3;NA;NA;"Hard bleached coral";NA;NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";3;NA;NA;"Hard dead coral";NA;NA;NA;NA;80
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";3;NA;NA;"Hard living coral";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S2";"Outer Slope";-0,269372;73,4301;NA;2017;"2017-05-16";3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Abiotic";"Rock";NA;NA;NA;27
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;11
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Hard living coral";NA;NA;NA;NA;37
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";1;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";1;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";1;NA;NA;"Hard bleached coral";NA;NA;NA;NA;15
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";1;NA;NA;"Hard dead coral";NA;NA;NA;NA;60
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";1;NA;NA;"Hard living coral";NA;NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";1;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Abiotic";"Rock";NA;NA;NA;21
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Abiotic";"Rubble";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Hard living coral";NA;NA;NA;NA;38
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;11
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";2;NA;NA;"Other fauna";"Zoantharia";"Sphenopidae";"Palythoa";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";2;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";2;NA;NA;"Hard dead coral";NA;NA;NA;NA;90
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";2;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Abiotic";"Rock";NA;NA;NA;15
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Abiotic";"Rubble";NA;NA;NA;8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;13
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;4
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Hard living coral";NA;NA;NA;NA;40
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;9
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2013;"2013-03-13";3;NA;NA;"Other fauna";"Zoantharia";"Sphenopidae";"Palythoa";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";3;NA;NA;"Algae";NA;NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";3;NA;NA;"Hard dead coral";NA;NA;NA;NA;75
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";3;NA;NA;"Other fauna";"Porifera";NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S3";"Outer Slope";-0,340742;73,448366;NA;2017;"2017-05-16";3;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Abiotic";"Rock";NA;NA;NA;16
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;11
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;7
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Hard living coral";NA;NA;NA;NA;45
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";1;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;8
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";1;NA;NA;"Algae";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";1;NA;NA;"Hard bleached coral";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";1;NA;NA;"Hard dead coral";NA;NA;NA;NA;60
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";1;NA;NA;"Hard living coral";NA;NA;NA;NA;15
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Abiotic";"Rock";NA;NA;NA;19
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Abiotic";"Rubble";NA;NA;NA;13
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Abiotic";"Sand";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;9
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Algae";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Hard living coral";NA;NA;NA;NA;39
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";2;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";2;NA;NA;"Algae";NA;NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";2;NA;NA;"Hard bleached coral";NA;NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";2;NA;NA;"Hard dead coral";NA;NA;NA;NA;80
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";2;NA;NA;"Hard living coral";NA;NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";2;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;2
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Abiotic";"Rock";NA;NA;NA;13
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Abiotic";"Rubble";NA;NA;NA;11
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Algae";NA;NA;NA;NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Hard living coral";NA;"Helioporidae";"Heliopora";NA;4
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Hard living coral";NA;NA;NA;NA;46
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2013;"2013-03-14";3;NA;NA;"Other fauna";"Zoantharia";"Sphenopidae";"Palythoa";NA;1
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";3;NA;NA;"Hard dead coral";NA;NA;NA;NA;90
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S4";"Outer Slope";-5,899113;80,933336;NA;2017;"2017-05-17";3;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Abiotic";"Rock";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Abiotic";"Rubble";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Abiotic";"Sand";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Algae";"Coralline algae";NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Algae";NA;NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Hard dead coral";NA;NA;NA;NA;25
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Hard living coral";NA;NA;NA;NA;4
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";1;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;6
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";2;NA;NA;"Abiotic";"Rock";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";2;NA;NA;"Abiotic";"Rubble";NA;NA;NA;20
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";2;NA;NA;"Algae";"Coralline algae";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";2;NA;NA;"Hard bleached coral";NA;NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";2;NA;NA;"Hard dead coral";NA;NA;NA;NA;29
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";2;NA;NA;"Hard living coral";NA;NA;NA;NA;15
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";2;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Abiotic";"Rubble";NA;NA;NA;40
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Abiotic";"Sand";NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Algae";"Coralline algae";NA;NA;NA;3
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Algae";NA;NA;NA;NA;4
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Hard bleached coral";NA;NA;NA;NA;10
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Hard dead coral";NA;NA;NA;NA;25
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Hard living coral";NA;NA;NA;NA;5
+"DATA4";"Indian Ocean";"Maldives";"Maldives";"Fuvahmulah";"S5";"Lagoon";-0,319433;73,438374;NA;2017;"2017-05-19";3;NA;NA;"Other fauna";"Tunicata";NA;NA;NA;3
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;14,74024
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,400321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;2,965783
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;11,37446
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Leptoseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,961606
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Fungiidae";"Fungia";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Fungiidae";"Herpolitha";NA;0,080321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;0,561606
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;0,560964
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,160321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,561285
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Mycedium";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Platygyra";NA;0,160321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2,803534
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;7,371888
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;0,240321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;14,44968
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;5,209677
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;7,700645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Agariciidae";"Gardineroseris";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;2,168387
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Fungiidae";"Fungia";NA;0,160645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;0,481935
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;0,721935
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,320645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Platygyra";NA;0,24129
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,563226
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;3,532258
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;0,480645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;10,90903
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;NA;"Pachyseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;13,20996
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;2,320964
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;6,246426
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Coeloseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;1,041606
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,240643
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Fungiidae";"Fungia";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Fungiidae";"Herpolitha";NA;0,160321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;0,48
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;0,640321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Merulina";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Pectinia";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,400321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;4,244819
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;0,560321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;17,77863
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2014;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;0,4
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;4,64
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;5,44
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;4,88
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Coeloseris";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Gardineroseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,8
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Astrocoeniidae";"Palauastrea";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Diploastraeidae";"Diploastrea";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Lobophyllia";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;1,2
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;3,52
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Hydnophora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Leptoria";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Platygyra";NA;0,4
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Scapophyllia";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;3,2
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;17,04
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;NA;"Pachyseris";NA;0,4
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;0,32
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;4,323855
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;4,163534
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;5,043855
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Agariciidae";"Coeloseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;2,24257
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Coscinaraeidae";"Coscinaraea";NA;0,32
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;1,761606
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;1,680321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,48
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Merulina";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,080321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;3,283534
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;4,720964
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,080321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;19,21799
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;4,8
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;6,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;6,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Coeloseris";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Gardineroseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;1,2
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;0,64
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;1,2
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,4
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;5,2
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;10,4
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;"Psammocoridae";"Psammocora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2014;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;14,98
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,56129
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;1,120645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;8,254839
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Coeloseris";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;2,321935
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Coscinaraeidae";"Coscinaraea";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Diploastraeidae";"Diploastrea";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,320645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Fungiidae";"Fungia";NA;0,32
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Fungiidae";"Podabacia";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Fungiidae";NA;NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;0,880645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;0,561935
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,48
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Merulina";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Mycedium";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Pectinia";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;5,448387
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;1,603226
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,800645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;11,79742
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;"Psammocoridae";"Psammocora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;0,160645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;0,4
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;16,99702
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,24
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;4,415792
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;5,77289
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Coeloseris";NA;0,320964
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Gardineroseris";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;1,041612
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Fungiidae";"Fungia";NA;0,320321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Fungiidae";"Podabacia";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;1,203221
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;1,525151
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Echinopora";NA;0,481285
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,320645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Hydnophora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Merulina";NA;0,4
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Mycedium";NA;0,800645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Pectinia";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;2,000645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,48
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;7,059026
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;NA;"Leptastrea";NA;0,080321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;NA;"Pachyseris";NA;0,481935
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2014;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;0,480966
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;0,322257
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;1,369024
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;4,749644
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Gardineroseris";NA;0,321285
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,804832
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Coscinaraeidae";"Coscinaraea";NA;0,16129
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Euphylliidae";"Galaxea";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Fungiidae";"Fungia";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Lobophylliidae";"Acanthastrea";NA;0,16129
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Cyphastrea";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;0,321933
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,241612
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Platygyra";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";"Scapophyllia";NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,080645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;0,563868
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;0,080321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,886125
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;12,23863
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;1;NA;NA;"Hard living coral";NA;NA;NA;NA;0,16129
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;0,240643
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Astreopora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;1,525143
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;3,290618
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,64193
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Dipsastraea";NA;0,401288
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,400321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Merulina";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";"Platygyra";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,160645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Pocillopora";NA;0,562573
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,240645
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;6,264146
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;"Psammocoridae";"Psammocora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;NA;"Pachyseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;2;NA;NA;"Hard living coral";NA;NA;NA;NA;0,240966
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Acropora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Isopora";NA;0,240321
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Acroporidae";"Montipora";NA;1,280643
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Coeloseris";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Agariciidae";"Pavona";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";"Favites";NA;0,16
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Merulinidae";NA;NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Seriatopora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Pocilloporidae";"Stylophora";NA;0,08
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;"Poritidae";"Porites";NA;3,521285
+"DATA5.1";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2014;NA;3;NA;NA;"Hard living coral";NA;NA;NA;NA;0,08
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS1";NA;9,35632;-82,227495;5,3000148;2016;NA;NA;NA;NA;"Abiotic";NA;NA;NA;NA;0,801204819
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS1";NA;9,35632;-82,227495;5,3000148;2016;NA;NA;NA;NA;"Algae";NA;NA;NA;NA;50,348995986
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS1";NA;9,35632;-82,227495;5,3000148;2016;NA;NA;NA;NA;"Hard living coral";NA;"Milleporidae";NA;NA;0,200803
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS1";NA;9,35632;-82,227495;5,3000148;2016;NA;NA;NA;NA;"Hard living coral";NA;NA;NA;NA;48,14819277
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS1";NA;9,35632;-82,227495;5,3000148;2016;NA;NA;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,1
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS1";NA;9,35632;-82,227495;5,3000148;2016;NA;NA;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,300401606
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2016;NA;NA;NA;NA;"Abiotic";NA;NA;NA;NA;3,761285141
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2016;NA;NA;NA;NA;"Algae";NA;NA;NA;NA;40,590522085
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2016;NA;NA;NA;NA;"Hard living coral";NA;"Milleporidae";NA;NA;0,401285
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2016;NA;NA;NA;NA;"Hard living coral";NA;NA;NA;NA;53,80658635
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2016;NA;NA;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,8
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS2";NA;9,354301;-82,231663;8,40001368;2016;NA;NA;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,560321285
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2016;NA;NA;NA;NA;"Abiotic";NA;NA;NA;NA;1,906610225
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2016;NA;NA;NA;NA;"Algae";NA;NA;NA;NA;43,263280151
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2016;NA;NA;NA;NA;"Hard living coral";NA;"Milleporidae";NA;NA;1,521348
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2016;NA;NA;NA;NA;"Hard living coral";NA;NA;NA;NA;47,40651796
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2016;NA;NA;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;3,894429068
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Carenero";"SS3";NA;9,350628;-82,236126;7,1999856;2016;NA;NA;NA;NA;"Other fauna";"Porifera";NA;NA;NA;1,907815044
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2016;NA;NA;NA;NA;"Abiotic";NA;NA;NA;NA;1,602891566
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2016;NA;NA;NA;NA;"Algae";NA;NA;NA;NA;32,873507052
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2016;NA;NA;NA;NA;"Hard living coral";NA;"Milleporidae";NA;NA;0,321285
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2016;NA;NA;NA;NA;"Hard living coral";NA;NA;NA;NA;59,00071355
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2016;NA;NA;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;3,555109741
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL1";NA;9,312184;-82,217241;5,00000016;2016;NA;NA;NA;NA;"Other fauna";"Porifera";NA;NA;NA;2,553469693
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL2";NA;9,316707;-82,215971;4,00001232;2016;NA;NA;NA;NA;"Abiotic";NA;NA;NA;NA;5,044497992
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL2";NA;9,316707;-82,215971;4,00001232;2016;NA;NA;NA;NA;"Algae";NA;NA;NA;NA;46,281124501
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL2";NA;9,316707;-82,215971;4,00001232;2016;NA;NA;NA;NA;"Hard living coral";NA;"Milleporidae";NA;NA;0,320321
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL2";NA;9,316707;-82,215971;4,00001232;2016;NA;NA;NA;NA;"Hard living coral";NA;NA;NA;NA;47,47309237
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL2";NA;9,316707;-82,215971;4,00001232;2016;NA;NA;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;0,32064257
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL2";NA;9,316707;-82,215971;4,00001232;2016;NA;NA;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,560321285
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL3";NA;9,320635;-82,218417;5,999988;2016;NA;NA;NA;NA;"Abiotic";NA;NA;NA;NA;16,44621849
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL3";NA;9,320635;-82,218417;5,999988;2016;NA;NA;NA;NA;"Algae";NA;NA;NA;NA;47,330252097
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL3";NA;9,320635;-82,218417;5,999988;2016;NA;NA;NA;NA;"Hard living coral";NA;"Milleporidae";NA;NA;0,6
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL3";NA;9,320635;-82,218417;5,999988;2016;NA;NA;NA;NA;"Hard living coral";NA;NA;NA;NA;30,27815126
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL3";NA;9,320635;-82,218417;5,999988;2016;NA;NA;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;4,140336134
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL3";NA;9,320635;-82,218417;5,999988;2016;NA;NA;NA;NA;"Other fauna";"Porifera";NA;NA;NA;0,805042017
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2016;NA;NA;NA;NA;"Abiotic";NA;NA;NA;NA;11,8
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2016;NA;NA;NA;NA;"Algae";NA;NA;NA;NA;50,2
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2016;NA;NA;NA;NA;"Hard living coral";NA;"Milleporidae";NA;NA;0,3
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2016;NA;NA;NA;NA;"Hard living coral";NA;NA;NA;NA;29,1
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2016;NA;NA;NA;NA;"Other fauna";"Alcyonacea";NA;NA;NA;6,4
+"DATA5.2";"Caribbean";"Panama";"Bocas del Toro";"Isla Solarte";"SL4";NA;9,326095;-82,220477;4,00001232;2016;NA;NA;NA;NA;"Other fauna";"Porifera";NA;NA;NA;1,6
