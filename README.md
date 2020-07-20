@@ -2,9 +2,7 @@
 
 
 
-**This repository contains the two case studies presented in the article**:
-
-Wicquart, J., Planes, S. (2020). A workflow to integrate ecological monitoring data from multiples sources. _Methods in Ecology and Evolution_, in prep.
+This repository is associated with the article "Wicquart, J., Planes, S. (2020). A workflow to integrate ecological monitoring data from multiples sources. _Methods in Ecology and Evolution_, in prep.". The goal of this repository is to provide data and code illustrating the workflow presented in the article, through two case study.
 
 **How to download the code?**
 
@@ -21,11 +19,11 @@ Please report any bugs or issues [HERE](https://github.com/JWicquart/monitoring_
 
 ### 1.1 Context
 
-
+The first case study correspond to the path 3A of the worflow and illustrate the integration of data from monitoring of benthic communities (sessile organisms) in coral reefs. Because the taxonomic identification is difficult, broad categories are often used (*e.g.* algae, hard living coral) in most of monitoring programs. Thus, during the data integration, a taxonomical re-categorisation must be done to insure the use a common categories across the different datasets integrated.
 
 ### 1.2 Project organization
 
-The folder `path_3a` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of adavancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignement done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
+The folder `path_3a` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignement done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
 
 
 ### 1.3 Raw datasets description
@@ -82,11 +80,12 @@ The **Table 1** describes the selected variables for the final benthic dataset. 
 
 ### 2.1 Context
 
+The second case study correspond to the path 3B of the worflow and illustrate the integration of data from monitoring of fish communities (vagile organisms) in coral reefs. Because the monitoring of fish is based on true taxonomical levels (*e.g.* species, genus) instead of taxonomical categories, a taxonomical verification must be assessed during the data integration to avoid misspelling names and include recent update in taxonomy.
 
 
 ### 2.2 Project organization
 
-The folder `path_3b` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of adavancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignement done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
+The folder `path_3b` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignement done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
 
 
 ### 1.3 Raw datasets description
