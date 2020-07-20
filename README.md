@@ -25,22 +25,16 @@ Please report any bugs or issues [HERE](https://github.com/JWicquart/monitoring_
 
 ### 1.2 Project organization
 
-path_3b
-├── data
-│   ├── 01_raw
-│   │   ├── data_contributor_1
-│   │   ├── data_contributor_2
-│   │   ├── data_contributor_3
-│   │   ├── data_contributor_4
-│   │   └── data_contributor_5
-│   └── 02_reformatted
-└── R
+The folder `path_3a` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of adavancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignement done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
 
 
-### 1.3 Datasets description
+### 1.3 Raw datasets description
 
-
-
+* **data_contributor_1** :
+* **data_contributor_2** :
+* **data_contributor_3** :
+* **data_contributor_4** :
+* **data_contributor_5** :
 
 ### 1.4 Variables selected
 
@@ -92,20 +86,16 @@ The **Table 1** describes the selected variables for the final benthic dataset. 
 
 ### 2.2 Project organization
 
-path_3b
-├── data
-│   ├── 01_raw
-│   │   ├── data_contributor_1
-│   │   ├── data_contributor_2
-│   │   ├── data_contributor_3
-│   │   ├── data_contributor_4
-│   │   └── data_contributor_5
-│   └── 02_reformatted
-└── R
-
-### 2.3 Datasets description
+The folder `path_3b` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of adavancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignement done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
 
 
+### 1.3 Raw datasets description
+
+* **data_contributor_1** :
+* **data_contributor_2** :
+* **data_contributor_3** :
+* **data_contributor_4** :
+* **data_contributor_5** :
 
 
 ### 2.4 Variables selected
