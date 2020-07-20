@@ -135,14 +135,16 @@ for (i in 1:length(quanti_var)) {
 
 ```{r}
 
-# 1. Make the sum of percentage cover by sampling unit ----
+# 1. First check of the total cover ----
+
+# 1.1 Make the sum of percentage cover by sampling unit --
 
 total_cover <- synthetic_data %>% 
   group_by(DatasetID, Area, Country, Archipelago, Location, Site, Zone, 
            Latitude, Longitude, Year, Date, Replicate, Observer, Depth) %>% 
   summarise(Total = sum(Cover))
 
-# 2. Table of percentage cover class by DatasetID ----
+# 1.2 Table of number of sampling units in the different categories, by DatasetID --
 
 total_cover %>% 
   select(DatasetID, Total) %>% 
@@ -154,15 +156,61 @@ total_cover %>%
             Min = round(min(Total, na.rm = TRUE), 2),
             Max = round(max(Total, na.rm = TRUE), 2)) %>% 
   datatable(., rownames = FALSE,
-            colnames = c("Dataset", "Cover < 0", "0 < Cover < 100", "Cover = 100", "Cover > 100", "Min", "Max")) %>% 
+            colnames = c("Dataset", "Cover < 0", 
+                         "0 < Cover < 100", 
+                         "Cover = 100", 
+                         "Cover > 100", "Min", "Max")) %>% 
   formatStyle("Less_0", backgroundColor = "#e74c3c") %>% 
   formatStyle("Between_0_100", backgroundColor = "#f4b350") %>% 
   formatStyle("Equal_100", backgroundColor = "#16a085") %>% 
   formatStyle("More_100", backgroundColor = "#e74c3c")
 
-# 3. Join the sum with main data ----
+# 1.3 Join the total cover with main data --
 
 synthetic_data <- synthetic_data %>%
+  left_join(., total_cover)
+
+# 2. Adjust the cover (using the rule of three) ----
+
+treshold <- 101 # Define the threshold
+
+synthetic_data <- synthetic_data %>% 
+  mutate(Cover = ifelse(Total > 100 & Total < treshold, (Cover*100)/Total, Cover))
+
+# 3. First check of the total cover ----
+
+# 3.1 Make the sum of percentage cover by sampling unit --
+
+total_cover <- synthetic_data %>% 
+  group_by(DatasetID, Area, Country, Archipelago, Location, Site, Zone, 
+           Latitude, Longitude, Year, Date, Replicate, Observer, Depth) %>% 
+  summarise(Total = sum(Cover))
+
+# 3.2 Table of number of sampling units in the different categories, by DatasetID --
+
+total_cover %>% 
+  select(DatasetID, Total) %>% 
+  group_by(DatasetID) %>% 
+  summarise(Less_0 = length(which(Total < 0)), 
+            Between_0_100 = length(which(Total > 0 & Total < 100)), 
+            Equal_100 = length(which(Total == 100)), 
+            More_100 = length(which(Total > 100)),
+            Min = round(min(Total, na.rm = TRUE), 2),
+            Max = round(max(Total, na.rm = TRUE), 2)) %>% 
+  datatable(., rownames = FALSE,
+            colnames = c("Dataset", "Cover < 0", 
+                         "0 < Cover < 100", 
+                         "Cover = 100", 
+                         "Cover > 100", "Min", "Max")) %>% 
+  formatStyle("Less_0", backgroundColor = "#e74c3c") %>% 
+  formatStyle("Between_0_100", backgroundColor = "#f4b350") %>% 
+  formatStyle("Equal_100", backgroundColor = "#16a085") %>% 
+  formatStyle("More_100", backgroundColor = "#e74c3c")
+
+# 3.3 Join the total cover with main data --
+
+synthetic_data <- synthetic_data %>%
+  select(-Total) %>% 
   left_join(., total_cover)
 
 ```

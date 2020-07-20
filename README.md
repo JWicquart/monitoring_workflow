@@ -25,7 +25,16 @@ Please report any bugs or issues [HERE](https://github.com/JWicquart/monitoring_
 
 ### 1.2 Project organization
 
-
+path_3b
+├── data
+│   ├── 01_raw
+│   │   ├── data_contributor_1
+│   │   ├── data_contributor_2
+│   │   ├── data_contributor_3
+│   │   ├── data_contributor_4
+│   │   └── data_contributor_5
+│   └── 02_reformatted
+└── R
 
 
 ### 1.3 Datasets description
@@ -83,7 +92,16 @@ The **Table 1** describes the selected variables for the final benthic dataset. 
 
 ### 2.2 Project organization
 
-
+path_3b
+├── data
+│   ├── 01_raw
+│   │   ├── data_contributor_1
+│   │   ├── data_contributor_2
+│   │   ├── data_contributor_3
+│   │   ├── data_contributor_4
+│   │   └── data_contributor_5
+│   └── 02_reformatted
+└── R
 
 ### 2.3 Datasets description
 
@@ -120,7 +138,6 @@ The **Table 3** describes the selected variables for the final fish dataset. The
 | 18   | Species     | Factor  |               | Species                                  |
 | 19   | Density     | Numeric | n ind. 100 m2 | Number of individuals                    |
 | 20   | Size        | Numeric | cm            | Size of individuals                      |
-| 21   | Size_type   | Factor  |               | Type of the size                         |
 
 
 
