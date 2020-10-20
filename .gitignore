@@ -1,4 +1,4 @@
-# Base #
+# base #
 ########
 
 .Rproj.user
@@ -11,6 +11,7 @@
 ##########
 
 doc/
+misc/
 pres/
 path_3a/R/*.html
 path_3b/R/*.html
