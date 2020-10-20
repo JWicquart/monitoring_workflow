@@ -26,6 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse) # Core tidyverse packages
 library(formattable)
+library(DT)
 
 ```
 

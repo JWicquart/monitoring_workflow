@@ -131,12 +131,6 @@ for (i in 1:length(quanti_var)) {
 
 ```
 
-```{r}
-
-# Tbl
-
-```
-
 ## Site coordinates
 
 ```{r fig.width=8}
@@ -161,7 +155,7 @@ synthetic_data %>%
 
 synthetic_data_clean <- synthetic_data %>% 
   filter(Density >= 0, # Remove negative values and NA for Density
-         Size >= 0 | is.na(Size)) # Remove negative values for Size
+         Size >= 0) # Remove negative values for Size
 
 # 2. Number and percentage of rows removed by dataset ----
 
