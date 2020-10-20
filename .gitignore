@@ -11,6 +11,7 @@
 ##########
 
 doc/
+figs/
 misc/
 pres/
 path_3a/R/*.html
