@@ -35,6 +35,8 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the first case study are described in the **Table 1**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 20 are taxonomical variables; and the variable 21 is the metric variable.
 
 
+**Table 1.** Variables selected for the benthic synthetic dataset
+
 |      | Variable    | Type    | Unit | Description                              |
 | ---- | ----------- | ------- | ---- | ---------------------------------------- |
 | 1    | DatasetID   | Factor  |      | Dataset ID                               |
@@ -60,8 +62,36 @@ The first step of the workflow is to select the variables that will have to be p
 | 21   | Cover       | Numeric | %    | Cover percentage                         |
 
 
-**Table 1.** Variables selected for the benthic dataset
+**Table 2.** Factor levels of variables `Category` and `Group` used for the re-categorization.
 
+| Category            | Group            |
+| -----------------   | ---------------  |
+| Hard living coral   |                  |
+| Hard bleached coral |                  |
+| Hard dead coral     |                  |
+| Seagrass            |                  |
+| Abiotic             | Rubble           |
+|                     | Sand             |
+|                     | Rock             |
+|                     | Silt             |
+| Algae               | Macroalgae       |
+|                     | Coralline algae  |
+|                     | Turf algae       |
+|                     | Cyanophyceae     |
+| Other fauna         | Actiniaria       |
+|                     | Alcyonacea       |
+|                     | Asteroidea       |
+|                     | Bivalvia         |
+|                     | Corallimorpharia |
+|                     | Crinoidea        |
+|                     | Echinoidea       |
+|                     | Gastropoda       |
+|                     | Holothuroidea    |
+|                     | Hydrozoa         |
+|                     | Polychaeta       |
+|                     | Porifera         |
+|                     | Tunicata         |
+|                     | Zoantharia       |
 
 
 ## 3. Path 3.B - Taxonomical verification
@@ -93,6 +123,8 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the second case study are described in the **Table 3**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 18 are taxonomical variables; and the variables 19 and 20 are the metric variables.
 
 
+**Table 3.** Variables selected for the fish synthetic dataset. The factor levels of the variable `Size_type` are *Total length*, *Fork length* and *Standard length*.
+
 |      | Variable    | Type    | Unit                 | Description                              |
 | ---- | ----------- | ------- | -------------------- | ---------------------------------------- |
 | 1    | DatasetID   | Factor  |                      | Dataset ID                               |
@@ -115,9 +147,8 @@ The first step of the workflow is to select the variables that will have to be p
 | 18   | Species     | Factor  |                      | Species                                  |
 | 19   | Density     | Numeric | n. ind. 100 m-2      | Number of individuals                    |
 | 20   | Size        | Numeric | cm                   | Size of individuals                      |
+| 21   | Size_type   | Factor  |                      | Size type used to measure the size       |
 
-
-**Table 3.** Variables selected for the fish dataset. The factor levels of the variable `Size_type` are *Total length*, *Fork length* and *Standard length*.
 
 ## 4. How to report issues?
 
