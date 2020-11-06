@@ -23,11 +23,11 @@ The folder `path_3a` contains the folders `data` and `R`. The `data` folder regr
 
 The `01_raw` folder includes five folders corresponding to the data shared by five different data contributors. Each of them represent a particular situation:
 
-* `data_contributor_1`: One *.xlsx* file containing two sheets, the first one with the main data and the second one with the substrate codes.
-* `data_contributor_2`: One *.xlsx* file containing two sheets, the first one with the main data in wide format and the second one with site coordinates.
-* `data_contributor_3`: One *.xlsx* file containing three sheets with same columns names corresponding to three different sites. 
-* `data_contributor_4`: Three *.csv* files where the two first files contains data for the same site but for two different years, and the third file contains substrate codes.
-* `data_contributor_5`: Three *.xlsx* files where the two first files contains data in wide format with different columns names, and the third file contains site coordinates.
+* :page_facing_up: `data_contributor_1`: One *.xlsx* file containing two sheets, the first one with the main data and the second one with the substrate codes.
+* :page_facing_up: `data_contributor_2`: One *.xlsx* file containing two sheets, the first one with the main data in wide format and the second one with site coordinates.
+* :page_facing_up: `data_contributor_3`: One *.xlsx* file containing three sheets with same columns names corresponding to three different sites. 
+* :page_facing_up: `data_contributor_4`: Three *.csv* files where the two first files contains data for the same site but for two different years, and the third file contains substrate codes.
+* :page_facing_up: `data_contributor_5`: Three *.xlsx* files where the two first files contains data in wide format with different columns names, and the third file contains site coordinates.
 
 ### 2.4 Variables selected
 
@@ -35,7 +35,7 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the first case study are described in the **Table 1**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 20 are taxonomical variables; and the variable 21 is the metric variable.
 
 
-**Table 1.** Variables selected for the benthic synthetic dataset
+**Table 1.** Variables selected for the benthic synthetic dataset.
 
 |      | Variable    | Type    | Unit | Description                              |
 | ---- | ----------- | ------- | ---- | ---------------------------------------- |
@@ -111,11 +111,11 @@ The folder `path_3b` contains the folders `data` and `R`. The `data` folder regr
 
 The `01_raw` folder includes five folders corresponding to the data shared by five different data contributors. Each of them represent a particular situation:
 
-* `data_contributor_1`: One *.xlsx* file containing two sheets, the first one with the main data and the second one with the site coordinates.
-* `data_contributor_2`: Two *.csv* files, the first contains the main data in wide format and the second the sites coordinates.
-* `data_contributor_3`: One *.xlsx* file containing three sheets, the first contains the main data, the second the site coordinates and the third the species codes.
-* `data_contributor_4`: Two files, one in *.xlsx* and one in *.csv*. The *.xlsx* file contains two sheets with same column names, corresponding to two different sites. The *.csv* file contains the site coordinates.
-* `data_contributor_5`: Four *.xlsx* files with one sheet, the first three contains the main data with same column names for three different sites, the fourth contains sites coordinates data.
+* :page_facing_up: `data_contributor_1`: One *.xlsx* file containing two sheets, the first one with the main data and the second one with the site coordinates.
+* :page_facing_up: `data_contributor_2`: Two *.csv* files, the first contains the main data in wide format and the second the sites coordinates.
+* :page_facing_up: `data_contributor_3`: One *.xlsx* file containing three sheets, the first contains the main data, the second the site coordinates and the third the species codes.
+* :page_facing_up: `data_contributor_4`: Two files, one in *.xlsx* and one in *.csv*. The *.xlsx* file contains two sheets with same column names, corresponding to two different sites. The *.csv* file contains the site coordinates.
+* :page_facing_up: `data_contributor_5`: Four *.xlsx* files with one sheet, the first three contains the main data with same column names for three different sites, the fourth contains sites coordinates data.
 
 
 ### 3.4 Variables selected
