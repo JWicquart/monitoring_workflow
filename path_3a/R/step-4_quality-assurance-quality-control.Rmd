@@ -238,7 +238,8 @@ synthetic_data %>%
 # 1. Remove rows with errors ----
 
 synthetic_data_clean <- synthetic_data %>% 
-  filter(Total > 0 & Total <= 100)
+  filter(Total > 0 & Total <= 100) %>% 
+  filter(Cover > 0 & Cover <= 100)
 
 # 2. Number and percentage of rows removed by dataset ----
 
