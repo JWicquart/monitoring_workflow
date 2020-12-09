@@ -123,31 +123,31 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the second case study are described in the **Table 3**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 18 are taxonomical variables; and the variables 19 and 20 are the metric variables.
 
 
-**Table 3.** Variables selected for the fish synthetic dataset. The factor levels of the variable `Size_type` are *Total length*, *Fork length* and *Standard length*.
+**Table 3.** Variables selected for the fish synthetic dataset. The factor levels of the variable `Size_type` are *Total length*, *Fork length* and *Standard length*. :memo: = description variables, :globe_with_meridians: = spatial variables, :calendar: = temporal variables, :straight_ruler: = methodological variables, :crab: = taxonomic variables, :chart_with_upwards_trend: = metric variables.
 
-|      | Variable    | Type    | Unit                 | Description                              |
-| ---- | ----------- | ------- | -------------------- | ---------------------------------------- |
-| 1    | DatasetID   | Factor  |                      | Dataset ID                               |
-| 2    | Area        | Factor  |                      | Biogeographic area                       |
-| 3    | Country     | Factor  |                      | Country                                  |
-| 4    | Archipelago | Factor  |                      | Archipelago                              |
-| 5    | Location    | Factor  |                      | Location or island within the country    |
-| 6    | Site        | Factor  |                      | Site within the location                 |
-| 7    | Replicate   | Integer |                      | Replicate ID                             |
-| 8    | Zone        | Factor  |                      | Reef zone                                |
-| 9    | Latitude    | Numeric |                      | Latitude of the site (*decimal format*)  |
-| 10   | Longitude   | Numeric |                      | Longitude of the site (*decimal format*) |
-| 11   | Depth       | Numeric | m                    | Mean depth                               |
-| 12   | Year        | Integer |                      | Year                                     |
-| 13   | Date        | Date    |                      | Date (*YYYY-MM-DD*)                      |
-| 14   | Method      | Factor  |                      | Description of the method used           |
-| 15   | Observer    | Factor  |                      | Name of the diver                        |
-| 16   | Family      | Factor  |                      | Family                                   |
-| 17   | Genus       | Factor  |                      | Genus                                    |
-| 18   | Species     | Factor  |                      | Species                                  |
-| 19   | Density     | Numeric | n. ind. 100 m-2      | Number of individuals                    |
-| 20   | Size        | Numeric | cm                   | Size of individuals                      |
-| 21   | Size_type   | Factor  |                      | Size type used to measure the size       |
+|      | Variable    |  Cat.                      | Type    | Unit             | Description                              |
+| ---- | ----------- | -------------------------- | ------- | ---------------- | ---------------------------------------- |
+| 1    | DatasetID   | :memo:                     | Factor  |                  | Dataset ID                               |
+| 2    | Area        | :globe_with_meridians:     | Factor  |                  | Biogeographic area                       |
+| 3    | Country     | :globe_with_meridians:     | Factor  |                  | Country                                  |
+| 4    | Archipelago | :globe_with_meridians:     | Factor  |                  | Archipelago                              |
+| 5    | Location    | :globe_with_meridians:     | Factor  |                  | Location or island within the country    |
+| 6    | Site        | :globe_with_meridians:     | Factor  |                  | Site within the location                 |
+| 7    | Replicate   | :globe_with_meridians:     | Integer |                  | Replicate ID                             |
+| 8    | Zone        | :globe_with_meridians:     | Factor  |                  | Reef zone                                |
+| 9    | Latitude    | :globe_with_meridians:     | Numeric |                  | Latitude of the site (*decimal format*)  |
+| 10   | Longitude   | :globe_with_meridians:     | Numeric |                  | Longitude of the site (*decimal format*) |
+| 11   | Depth       | :globe_with_meridians:     | Numeric | m                | Mean depth                               |
+| 12   | Year        | :calendar:                 | Integer |                  | Year                                     |
+| 13   | Date        | :calendar:                 | Date    |                  | Date (*YYYY-MM-DD*)                      |
+| 14   | Method      | :straight_ruler:           | Factor  |                  | Description of the method used           |
+| 15   | Observer    | :straight_ruler:           | Factor  |                  | Name of the diver                        |
+| 16   | Family      | :crab:                     | Factor  |                  | Family                                   |
+| 17   | Genus       | :crab:                     | Factor  |                  | Genus                                    |
+| 18   | Species     | :crab:                     | Factor  |                  | Species                                  |
+| 19   | Density     | :chart_with_upwards_trend: | Numeric | n. ind. 100 m-2  | Number of individuals                    |
+| 20   | Size        | :chart_with_upwards_trend: | Numeric | cm               | Size of individuals                      |
+| 21   | Size_type   | :straight_ruler:           | Factor  |                  | Size type used to measure the size       |
 
 
 ## 4. How to report issues?
