@@ -1,22 +1,24 @@
 # **A workflow to integrate ecological monitoring data from multiples sources**
 
+**This repository contains code template illustrating the workflow presented in the article:**
 
-This repository is associated with the article "Wicquart, J., Planes, S. (2020). A workflow to integrate ecological monitoring data from multiples sources. *Methods in Ecology and Evolution*, in prep.". The goal of this repository is to provide data and code illustrating the workflow presented in the article, through two case study.
+Wicquart, J., Gudka, M., Obura, D., Logan, M., Staub, F., Souter, D., Planes, S. (2021). A workflow to integrate ecological monitoring data from multiples sources. *Methods in Ecology and Evolution*, *in prep.*
+
 
 ## 1. How to download this project?
 
 On the project main page on GitHub, click on the green button `Code` and then click on `Download ZIP`
 
-## 2. Path 3.A - Taxonomical re-categorisation
+## 2. Path 3.A - Taxonomic re-categorization
 
 
 ### 2.1 Context
 
-The first case study correspond to the path 3A of the workflow and illustrate the integration of data from monitoring of benthic communities (sessile organisms) in coral reefs. Because the taxonomic identification is difficult, broad categories are often used (*e.g.* algae, hard living coral) in most of monitoring programs. Thus, during the data integration, a taxonomical re-categorisation must be done to insure the use a common categories across the different datasets integrated.
+The first case study correspond to the path 3A of the workflow and illustrate the integration of data from monitoring of benthic communities (sessile organisms) in coral reefs. Because the taxonomic identification is difficult, broad categories are often used (*e.g.* algae, hard living coral) in most of monitoring programs. Thus, during the data integration, a taxonomic re-categorization must be done to insure the use a common categories across the different datasets integrated.
 
 ### 2.2 Project organization
 
-The folder `path_3a` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignment done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
+The folder `path_3a` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignment done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignment.Rmd*) correspond to the data grouping and taxonomic assignment (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
 
 
 ### 2.3 Raw datasets description
@@ -32,7 +34,7 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 ### 2.4 Variables selected
 
 
-The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the first case study are described in the **Table 1**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 20 are taxonomical variables; and the variable 21 is the metric variable.
+The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the first case study are described in the **Table 1**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 20 are taxonomic variables; and the variable 21 is the metric variable.
 
 
 **Table 1.** Variables selected for the benthic synthetic dataset. The icons for the variables categories (`Cat.`) represents :memo: = description variables, :globe_with_meridians: = spatial variables, :calendar: = temporal variables, :straight_ruler: = methodological variables, :crab: = taxonomic variables, :chart_with_upwards_trend: = metric variables.
@@ -104,7 +106,7 @@ The second case study correspond to the path 3B of the workflow and illustrate t
 
 ### 3.2 Project organization
 
-The folder `path_3b` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignment done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignement.Rmd*) correspond to the data grouping and taxonomic assignement (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
+The folder `path_3b` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignment done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. This data files and folders numbering is used correspondingly in the `R` folder where three scripts are present. The first one (*step-2_individual-data-reformatting.Rmd*) correspond to the individual data reformatting (step 2 of the workflow) with one or more chunk code by data contributor. The second one (*step-3_data-grouping-tax-assignment.Rmd*) correspond to the data grouping and taxonomic assignment (step 3 of the workflow), and the last one (*step-4_quality-assurance-quality-control.Rmd*) correspond to the quality assurance and quality control (step 4 of the workflow).
 
 
 ### 3.3 Raw datasets description
@@ -120,7 +122,7 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 
 ### 3.4 Variables selected
 
-The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the second case study are described in the **Table 3**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 18 are taxonomical variables; and the variables 19 and 20 are the metric variables.
+The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the second case study are described in the **Table 3**. The variables 1 to 11 are spatial variables; the variables 12 and 13, are temporal variables; the variables 14 and 15, are methodological variables; the variables 16 to 18 are taxonomic variables; and the variables 19 and 20 are the metric variables.
 
 
 **Table 3.** Variables selected for the fish synthetic dataset. The factor levels of the variable `Size_type` are *Total length*, *Fork length* and *Standard length*. The icons for the variables categories (`Cat.`) represents :memo: = description variables, :globe_with_meridians: = spatial variables, :calendar: = temporal variables, :straight_ruler: = methodological variables, :crab: = taxonomic variables, :chart_with_upwards_trend: = metric variables.
