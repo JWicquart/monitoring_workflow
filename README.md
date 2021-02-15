@@ -174,44 +174,36 @@ Running under: Windows 10 x64 (build 18363)
 Matrix products: default
 
 locale:
-[1] LC_COLLATE=French_France.1252  LC_CTYPE=French_France.1252   
-[3] LC_MONETARY=French_France.1252 LC_NUMERIC=C                  
-[5] LC_TIME=French_France.1252    
+[1] LC_COLLATE=French_France.1252  LC_CTYPE=French_France.1252    LC_MONETARY=French_France.1252
+[4] LC_NUMERIC=C                   LC_TIME=French_France.1252    
 
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] Hmisc_4.4-1         Formula_1.2-4       survival_3.2-7     
- [4] lattice_0.20-41     rfishbase_3.0.4     leaflet_2.0.3      
- [7] formattable_0.2.0.1 DT_0.16             lubridate_1.7.9    
-[10] readxl_1.3.1        forcats_0.5.0       stringr_1.4.0      
-[13] dplyr_1.0.2         purrr_0.3.4         readr_1.4.0        
-[16] tidyr_1.1.2         tibble_3.0.4        ggplot2_3.3.2      
-[19] tidyverse_1.3.0    
+ [1] Hmisc_4.4-2       Formula_1.2-4     survival_3.2-7    lattice_0.20-41   rfishbase_3.1.6  
+ [6] lubridate_1.7.9.2 readxl_1.3.1      leaflet_2.0.4.1   DT_0.17           formattable_0.2.1
+[11] forcats_0.5.1     stringr_1.4.0     dplyr_1.0.4       purrr_0.3.4       readr_1.4.0      
+[16] tidyr_1.1.2       tibble_3.0.6      ggplot2_3.3.3     tidyverse_1.3.0  
 
 loaded via a namespace (and not attached):
- [1] httr_1.4.2          jsonlite_1.7.1      splines_4.0.3      
- [4] modelr_0.1.8        assertthat_0.2.1    latticeExtra_0.6-29
- [7] blob_1.2.1          cellranger_1.1.0    yaml_2.2.1         
-[10] pillar_1.4.6        backports_1.1.10    glue_1.4.2         
-[13] digest_0.6.25       checkmate_2.0.0     RColorBrewer_1.1-2 
-[16] rvest_0.3.6         colorspace_1.4-1    htmltools_0.5.0    
-[19] Matrix_1.2-18       pkgconfig_2.0.3     broom_0.7.2        
-[22] haven_2.3.1         scales_1.1.1        jpeg_0.1-8.1       
-[25] htmlTable_2.1.0     generics_0.0.2      ellipsis_0.3.1     
-[28] withr_2.3.0         nnet_7.3-14         cli_2.1.0          
-[31] magrittr_1.5        crayon_1.3.4        memoise_1.1.0      
-[34] evaluate_0.14       fs_1.5.0            fansi_0.4.1        
-[37] xml2_1.3.2          foreign_0.8-80      data.table_1.13.0  
-[40] tools_4.0.3         gh_1.1.0            hms_0.5.3          
-[43] lifecycle_0.2.0     munsell_0.5.0       reprex_0.3.0       
-[46] cluster_2.1.0       compiler_4.0.3      rlang_0.4.8        
-[49] grid_4.0.3          rstudioapi_0.11     htmlwidgets_1.5.2  
-[52] crosstalk_1.1.0.1   base64enc_0.1-3     rmarkdown_2.4      
-[55] gtable_0.3.0        DBI_1.1.0           R6_2.4.1           
-[58] gridExtra_2.3       knitr_1.30          stringi_1.5.3      
-[61] Rcpp_1.0.5          rpart_4.1-15        vctrs_0.3.4        
-[64] png_0.1-7           dbplyr_1.4.4        tidyselect_1.1.0   
-[67] xfun_0.18 
+ [1] fs_1.5.0            RColorBrewer_1.1-2  progress_1.2.2      httr_1.4.2         
+ [5] gh_1.2.0            tools_4.0.3         backports_1.2.1     R6_2.5.0           
+ [9] rpart_4.1-15        DBI_1.1.1           colorspace_2.0-0    nnet_7.3-15        
+[13] withr_2.4.1         tidyselect_1.1.0    gridExtra_2.3       prettyunits_1.1.1  
+[17] curl_4.3            compiler_4.0.3      cli_2.3.0           rvest_0.3.6        
+[21] htmlTable_2.1.0     xml2_1.3.2          scales_1.1.1        checkmate_2.0.0    
+[25] digest_0.6.27       foreign_0.8-81      rmarkdown_2.6       R.utils_2.10.1     
+[29] base64enc_0.1-3     jpeg_0.1-8.1        pkgconfig_2.0.3     htmltools_0.5.1.1  
+[33] dbplyr_2.1.0        fastmap_1.1.0       htmlwidgets_1.5.3   rlang_0.4.10       
+[37] rstudioapi_0.13     generics_0.1.0      jsonlite_1.7.2      crosstalk_1.1.1    
+[41] R.oo_1.24.0         magrittr_2.0.1      Matrix_1.3-2        Rcpp_1.0.6         
+[45] munsell_0.5.0       lifecycle_0.2.0     R.methodsS3_1.8.1   stringi_1.5.3      
+[49] yaml_2.2.1          grid_4.0.3          crayon_1.4.1        haven_2.3.1        
+[53] splines_4.0.3       hms_1.0.0           knitr_1.31          pillar_1.4.7       
+[57] reprex_1.0.0        glue_1.4.2          evaluate_0.14       arkdb_0.0.8        
+[61] latticeExtra_0.6-29 data.table_1.13.6   modelr_0.1.8        vctrs_0.3.6        
+[65] png_0.1-7           cellranger_1.1.0    gtable_0.3.0        assertthat_0.2.1   
+[69] cachem_1.0.3        xfun_0.21           broom_0.7.4         rsconnect_0.8.16   
+[73] memoise_2.0.0       cluster_2.1.0       ellipsis_0.3.1     
 ```
