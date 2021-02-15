@@ -1,5 +1,5 @@
 ---
-title: "Path 3.B - Step 3 - Data grouping and taxonomic assignement"
+title: "Path 3.B - Step 3 - Data grouping and taxonomic verification"
 date: "`r Sys.Date()`"
 output: 
   html_document:
@@ -82,7 +82,8 @@ tax_names <- synthetic_data %>%
                           NA, 
                           validate_names(Tax_ID))) %>% # Correct the names through fishbase
   left_join(., load_taxa() %>% 
-              select(Family, Genus, Species)) %>% # Join to get higher tax. levels
+              select(Family, Genus, Species) %>% 
+              as_tibble()) %>% # Join to get higher tax. levels
   select(Tax_ID, Family, Genus, Species) # Re-order variables
 
 # 3. Export the file of incorrect tax. names for a manual correction ----

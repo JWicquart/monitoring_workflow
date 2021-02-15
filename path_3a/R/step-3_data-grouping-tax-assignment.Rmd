@@ -1,5 +1,5 @@
 ---
-title: "Path 3.A - Step 3 - Data grouping and taxonomic assignement"
+title: "Path 3.A - Step 3 - Data grouping and taxonomic re-categorization"
 date: "`r Sys.Date()`"
 output: 
   html_document:
@@ -59,7 +59,7 @@ rm(files_list, dataset_i, i)
 
 ```
 
-# Taxonomical categorisation
+# Taxonomical re-categorization
 
 ```{r}
 

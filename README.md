@@ -14,7 +14,7 @@ On the project main page on GitHub, click on the green button `Code` and then cl
 
 ### 2.1 Context
 
-The first case study correspond to the path 3A of the workflow and illustrate the integration of data from monitoring of benthic communities (sessile organisms) in coral reefs. Because the taxonomic identification is difficult, broad categories are often used (*e.g.* algae, hard living coral) in most of monitoring programs. Thus, during the data integration, a taxonomic re-categorization must be done to insure the use of common categories across the different datasets integrated.
+The first case study correspond to the path 3A of the workflow and illustrate the integration of data from monitoring of benthic communities (sessile organisms) in coral reefs. Because the taxonomic identification is difficult, broad categories are often used (*e.g.* algae, hard living coral) in most of monitoring programs. Thus, during the data integration, a taxonomic re-categorization must be done to insure the use of common categories across the different datasets integrated. We highlight that the different datasets were created to illustrate the worklow and they do not correspond to any existing real datasets.
 
 
 ### 2.2 Project organization
@@ -101,7 +101,7 @@ The first step of the workflow is to select the variables that will have to be p
 
 ### 3.1 Context
 
-The second case study correspond to the path 3B of the workflow and illustrate the integration of data from monitoring of fish communities (vagile organisms) in coral reefs. Because the monitoring of fish is based on true taxonomical levels (*e.g.* species, genus) instead of broad categories, a taxonomical verification must be assessed during the data integration to avoid misspelling names and include recent update in taxonomy.
+The second case study correspond to the path 3B of the workflow and illustrate the integration of data from monitoring of fish communities (vagile organisms) in coral reefs. Because the monitoring of fish is based on true taxonomical levels (*e.g.* species, genus) instead of broad categories, a taxonomical verification must be assessed during the data integration to avoid misspelling names and include recent update in taxonomy. We highlight that the different datasets were created to illustrate the worklow and they do not correspond to any existing real datasets.
 
 
 ### 3.2 Project organization

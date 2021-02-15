@@ -32,7 +32,7 @@ library(lubridate) # To transform date
 
 selected_variables <- c("DatasetID", "Area", "Country", "Archipelago", 
                         "Location", "Site", "Replicate", "Zone", "Latitude", "Longitude", 
-                        "Depth", "Year", "Date", "Method", "Observer", "Tax_ID", "Density", "Size")
+                        "Depth", "Year", "Date", "Method", "Observer", "Tax_ID", "Density", "Size", "Size_type")
 
 ```
 
@@ -68,7 +68,8 @@ data_main <- data_main %>%
          Area = "Caribbean",
          Country = "Venezuela",
          Location = "Chichiriviche",
-         Method = "Belt transect") # Add variables absent in data (can be obtained through data contributor)
+         Method = "Belt transect",
+         Size_type = "Total length") # Add variables absent in data (can be obtained through data contributor)
 
 # 3. Export data ----
 
@@ -111,7 +112,8 @@ data_main <- data_main %>%
   mutate(DatasetID = "DATA2",
          Area = "Caribbean",
          Country = "St. Lucia",
-         Method = "Belt transect") # Add variables absent in data (can be obtained through data contributor)
+         Method = "Belt transect",
+         Size_type = "Total length") # Add variables absent in data (can be obtained through data contributor)
 
 # 3. Export data ----
 
@@ -156,9 +158,11 @@ data_main <- data_main %>%
          Tax_ID = Sp_name, Site = Site_name) %>% 
   mutate(DatasetID = "DATA3",
          Area = "Pacific",
+         Density = Density/2, # Convert n.ind.200 m-2 to 100 m-2
          Archipelago = "Society Islands",
          Country = "France",
-         Method = "Belt transect") # Add variables absent in data (can be obtained through data contributor)
+         Method = "Belt transect",
+         Size_type = "Total length") # Add variables absent in data (can be obtained through data contributor)
 
 # 3. Export data ----
 
@@ -270,7 +274,8 @@ data_main <- data_main %>%
   mutate(DatasetID = "DATA5",
          Area = "Pacific",
          Country = "Republic of Fiji",
-         Archipelago = "Fiji Islands") # Add variables absent in data (can be obtained through data contributor)
+         Archipelago = "Fiji Islands",
+         Size_type = "Total length") # Add variables absent in data (can be obtained through data contributor)
 
 # 3. Export data ----
 
