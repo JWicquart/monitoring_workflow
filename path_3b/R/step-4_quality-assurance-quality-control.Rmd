@@ -154,8 +154,9 @@ synthetic_data %>%
 # 1. Remove rows with errors ----
 
 synthetic_data_clean <- synthetic_data %>% 
-  filter(Density >= 0, # Remove negative values and NA for Density
-         Size >= 0) # Remove negative values for Size
+  drop_na(Density) %>% # Remove NA values for Density
+  filter(Density >= 0) %>%  # Remove negative values for Density
+  filter(Size >= 0 | is.na(Size)) # Remove negative values for Size but keep NA
 
 # 2. Number and percentage of rows removed by dataset ----
 
