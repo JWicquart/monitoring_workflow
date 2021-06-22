@@ -72,32 +72,35 @@ The first step of the workflow is to select the variables that will have to be p
 
 | Category            | Group            |
 | -----------------   | ---------------  |
-| Hard living coral   |                  |
+| Abiotic             | Rock             |
+|                     | Rubble           |
+|                     | Sand             |
+|                     | Silt             |
+| Algae               | Coralline algae  |
+|                     | Cyanophyceae     |
+|                     | Macroalgae       |
+|                     | Turf algae       |
 | Hard bleached coral |                  |
 | Hard dead coral     |                  |
-| Seagrass            |                  |
-| Abiotic             | Rubble           |
-|                     | Sand             |
-|                     | Rock             |
-|                     | Silt             |
-| Algae               | Macroalgae       |
-|                     | Coralline algae  |
-|                     | Turf algae       |
-|                     | Cyanophyceae     |
+| Hard living coral   |                  |
 | Other fauna         | Actiniaria       |
 |                     | Alcyonacea       |
+|                     | Antipatharia     |
 |                     | Asteroidea       |
 |                     | Bivalvia         |
+|                     | Bryozoa          |
 |                     | Corallimorpharia |
 |                     | Crinoidea        |
 |                     | Echinoidea       |
 |                     | Gastropoda       |
 |                     | Holothuroidea    |
 |                     | Hydrozoa         |
+|                     | Ophiuroidea      |
 |                     | Polychaeta       |
 |                     | Porifera         |
 |                     | Tunicata         |
 |                     | Zoantharia       |
+| Seagrass            |                  |
 
 
 ## 3. Path 3.B - Taxonomical verification
