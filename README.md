@@ -1,8 +1,8 @@
-# **A workflow to integrate ecological monitoring data from multiples sources**
+# **A workflow to integrate ecological monitoring data from different sources**
 
 **This repository contains code template illustrating the workflow presented in the article:**
 
-Wicquart, J., Gudka, M., Obura, D., Logan, M., Staub, F., Souter, D., Planes, S. (2021). A workflow to integrate ecological monitoring data from multiples sources. *Methods in Ecology and Evolution*, *in prep.*
+Wicquart, J., Gudka, M., Obura, D., Logan, M., Staub, F., Souter, D., Planes, S. (2021). A workflow to integrate ecological monitoring data from different sources. *Methods in Ecology and Evolution*, *in prep.*
 
 
 ## 1. How to download this project?
@@ -167,7 +167,7 @@ Please report any bugs or issues [HERE](https://github.com/JWicquart/monitoring_
 ## 5. Reproducibility parameters
 
 ```R
-R version 4.0.3 (2020-10-10)
+R version 4.1.0 (2021-05-18)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 Running under: Windows 10 x64 (build 18363)
 
@@ -181,29 +181,25 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] Hmisc_4.4-2       Formula_1.2-4     survival_3.2-7    lattice_0.20-41   rfishbase_3.1.6  
- [6] lubridate_1.7.9.2 readxl_1.3.1      leaflet_2.0.4.1   DT_0.17           formattable_0.2.1
-[11] forcats_0.5.1     stringr_1.4.0     dplyr_1.0.4       purrr_0.3.4       readr_1.4.0      
-[16] tidyr_1.1.2       tibble_3.0.6      ggplot2_3.3.3     tidyverse_1.3.0  
+ [1] Hmisc_4.5-0       Formula_1.2-4     survival_3.2-11   lattice_0.20-44   rfishbase_3.1.8  
+ [6] leaflet_2.0.4.1   DT_0.18           formattable_0.2.1 lubridate_1.7.10  readxl_1.3.1     
+[11] forcats_0.5.1     stringr_1.4.0     dplyr_1.0.6       purrr_0.3.4       readr_1.4.0      
+[16] tidyr_1.1.3       tibble_3.1.2      ggplot2_3.3.4     tidyverse_1.3.1  
 
 loaded via a namespace (and not attached):
- [1] fs_1.5.0            RColorBrewer_1.1-2  progress_1.2.2      httr_1.4.2         
- [5] gh_1.2.0            tools_4.0.3         backports_1.2.1     R6_2.5.0           
- [9] rpart_4.1-15        DBI_1.1.1           colorspace_2.0-0    nnet_7.3-15        
-[13] withr_2.4.1         tidyselect_1.1.0    gridExtra_2.3       prettyunits_1.1.1  
-[17] curl_4.3            compiler_4.0.3      cli_2.3.0           rvest_0.3.6        
-[21] htmlTable_2.1.0     xml2_1.3.2          scales_1.1.1        checkmate_2.0.0    
-[25] digest_0.6.27       foreign_0.8-81      rmarkdown_2.6       R.utils_2.10.1     
-[29] base64enc_0.1-3     jpeg_0.1-8.1        pkgconfig_2.0.3     htmltools_0.5.1.1  
-[33] dbplyr_2.1.0        fastmap_1.1.0       htmlwidgets_1.5.3   rlang_0.4.10       
-[37] rstudioapi_0.13     generics_0.1.0      jsonlite_1.7.2      crosstalk_1.1.1    
-[41] R.oo_1.24.0         magrittr_2.0.1      Matrix_1.3-2        Rcpp_1.0.6         
-[45] munsell_0.5.0       lifecycle_0.2.0     R.methodsS3_1.8.1   stringi_1.5.3      
-[49] yaml_2.2.1          grid_4.0.3          crayon_1.4.1        haven_2.3.1        
-[53] splines_4.0.3       hms_1.0.0           knitr_1.31          pillar_1.4.7       
-[57] reprex_1.0.0        glue_1.4.2          evaluate_0.14       arkdb_0.0.8        
-[61] latticeExtra_0.6-29 data.table_1.13.6   modelr_0.1.8        vctrs_0.3.6        
-[65] png_0.1-7           cellranger_1.1.0    gtable_0.3.0        assertthat_0.2.1   
-[69] cachem_1.0.3        xfun_0.21           broom_0.7.4         rsconnect_0.8.16   
-[73] memoise_2.0.0       cluster_2.1.0       ellipsis_0.3.1     
+ [1] fs_1.5.0            RColorBrewer_1.1-2  progress_1.2.2      httr_1.4.2          gh_1.3.0           
+ [6] tools_4.1.0         backports_1.2.1     utf8_1.2.1          R6_2.5.0            rpart_4.1-15       
+[11] DBI_1.1.1           colorspace_2.0-1    nnet_7.3-16         withr_2.4.2         tidyselect_1.1.1   
+[16] gridExtra_2.3       prettyunits_1.1.1   curl_4.3.1          compiler_4.1.0      cli_2.5.0          
+[21] rvest_1.0.0         htmlTable_2.2.1     xml2_1.3.2          scales_1.1.1        checkmate_2.0.0    
+[26] digest_0.6.27       foreign_0.8-81      rmarkdown_2.9       base64enc_0.1-3     jpeg_0.1-8.1       
+[31] pkgconfig_2.0.3     htmltools_0.5.1.1   dbplyr_2.1.1        fastmap_1.1.0       htmlwidgets_1.5.3  
+[36] rlang_0.4.11        rstudioapi_0.13     generics_0.1.0      jsonlite_1.7.2      crosstalk_1.1.1    
+[41] magrittr_2.0.1      Matrix_1.3-4        Rcpp_1.0.6          munsell_0.5.0       fansi_0.5.0        
+[46] lifecycle_1.0.0     stringi_1.6.2       yaml_2.2.1          grid_4.1.0          crayon_1.4.1       
+[51] haven_2.4.1         splines_4.1.0       hms_1.1.0           knitr_1.33          pillar_1.6.1       
+[56] reprex_2.0.0        glue_1.4.2          evaluate_0.14       arkdb_0.0.12        latticeExtra_0.6-29
+[61] data.table_1.14.0   modelr_0.1.8        vctrs_0.3.8         png_0.1-7           cellranger_1.1.0   
+[66] gtable_0.3.0        assertthat_0.2.1    cachem_1.0.5        xfun_0.24           broom_0.7.7        
+[71] memoise_2.0.0       cluster_2.1.2       ellipsis_0.3.2
 ```
