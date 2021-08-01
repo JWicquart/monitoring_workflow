@@ -2,7 +2,7 @@
 
 **This repository contains code template illustrating the workflow presented in the article:**
 
-Wicquart, J., Gudka, M., Obura, D., Logan, M., Staub, F., Souter, D., Planes, S. (2021). A workflow to integrate ecological monitoring data from different sources. *Methods in Ecology and Evolution*, *in prep.*
+Wicquart, J., Gudka, M., Obura, D., Logan, M., Staub, F., Souter, D., Planes, S. (2021). A workflow to integrate ecological monitoring data from different sources. *Ecological Informatics*, *submitted*.
 
 
 ## 1. How to download this project?
