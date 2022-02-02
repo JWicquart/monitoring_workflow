@@ -51,11 +51,11 @@ The first step of the workflow is to select the variables that will have to be p
 | 4    | Archipelago (*islandGroup*)     | :globe_with_meridians:     | Factor  |      | Archipelago                              |
 | 5    | Location (*stateProvince*)      | :globe_with_meridians:     | Factor  |      | Location or island within the country    |
 | 6    | Site (*locality*)               | :globe_with_meridians:     | Factor  |      | Site within the location                 |
-| 7    | Replicate                       | :globe_with_meridians:     | Integer |      | Replicate ID                             |
+| 7    | Replicate (*parentEventID*)     | :globe_with_meridians:     | Integer |      | Replicate ID                             |
 | 8    | Zone (*habitat*)                | :globe_with_meridians:     | Factor  |      | Reef zone                                |
 | 9    | Latitude (*decimalLatitude*)    | :globe_with_meridians:     | Numeric |      | Latitude of the site (*decimal format*)  |
 | 10   | Longitude (*decimalLongitude*)  | :globe_with_meridians:     | Numeric |      | Longitude of the site (*decimal format*) |
-| 11   | Depth                           | :globe_with_meridians:     | Numeric | m    | Mean depth                               |
+| 11   | Depth (*verbatimDepth*)         | :globe_with_meridians:     | Numeric | m    | Mean depth                               |
 | 12   | Year (*year*)                   | :calendar:                 | Integer |      | Year                                     |
 | 13   | Date (*eventDate*)              | :calendar:                 | Date    |      | Date (*YYYY-MM-DD*)                      |
 | 14   | Method (*samplingProtocol*)     | :straight_ruler:           | Factor  |      | Description of the method used           |
@@ -145,11 +145,11 @@ The first step of the workflow is to select the variables that will have to be p
 | 4    | Archipelago (*islandGroup*)      | :globe_with_meridians:     | Factor  |                  | Archipelago                              |
 | 5    | Location (*stateProvince*)       | :globe_with_meridians:     | Factor  |                  | Location or island within the country    |
 | 6    | Site (*locality*)                | :globe_with_meridians:     | Factor  |                  | Site within the location                 |
-| 7    | Replicate                        | :globe_with_meridians:     | Integer |                  | Replicate ID                             |
+| 7    | Replicate (*parentEventID*)      | :globe_with_meridians:     | Integer |                  | Replicate ID                             |
 | 8    | Zone (*habitat*)                 | :globe_with_meridians:     | Factor  |                  | Reef zone                                |
 | 9    | Latitude (*decimalLatitude*)     | :globe_with_meridians:     | Numeric |                  | Latitude of the site (*decimal format*)  |
 | 10   | Longitude  (*decimalLongitude*)  | :globe_with_meridians:     | Numeric |                  | Longitude of the site (*decimal format*) |
-| 11   | Depth                            | :globe_with_meridians:     | Numeric | m                | Mean depth                               |
+| 11   | Depth (*verbatimDepth*)          | :globe_with_meridians:     | Numeric | m                | Mean depth                               |
 | 12   | Year (*year*)                    | :calendar:                 | Integer |                  | Year                                     |
 | 13   | Date (*eventDate*)               | :calendar:                 | Date    |                  | Date (*YYYY-MM-DD*)                      |
 | 14   | Method (*samplingProtocol*)      | :straight_ruler:           | Factor  |                  | Description of the method used           |
