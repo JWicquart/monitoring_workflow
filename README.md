@@ -41,31 +41,31 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the first case study are described in the **Table 1**.
 
-**Table 1.** Variables selected for the benthic synthetic dataset. The icons for the variables categories (`Cat.`) represents :memo: = description variables, :globe_with_meridians: = spatial variables, :calendar: = temporal variables, :straight_ruler: = methodological variables, :crab: = taxonomic variables, :chart_with_upwards_trend: = metric variables.
+**Table 1.** Variables selected for the benthic synthetic dataset. The icons for the variables categories (`Cat.`) represents :memo: = description variables, :globe_with_meridians: = spatial variables, :calendar: = temporal variables, :straight_ruler: = methodological variables, :crab: = taxonomic variables, :chart_with_upwards_trend: = metric variables. Variables names in parentheses correspond to the [DarwinCore (DwC) terms](https://dwc.tdwg.org/terms/).
 
-|      | Variable    | Cat.                       | Type    | Unit | Description                              |
-| ---- | ----------- | -------------------------- | ------- | ---- | ---------------------------------------- |
-| 1    | DatasetID   | :memo:                     | Factor  |      | Dataset ID                               |
-| 2    | Area        | :globe_with_meridians:     | Factor  |      | Biogeographic area                       |
-| 3    | Country     | :globe_with_meridians:     | Factor  |      | Country                                  |
-| 4    | Archipelago | :globe_with_meridians:     | Factor  |      | Archipelago                              |
-| 5    | Location    | :globe_with_meridians:     | Factor  |      | Location or island within the country    |
-| 6    | Site        | :globe_with_meridians:     | Factor  |      | Site within the location                 |
-| 7    | Replicate   | :globe_with_meridians:     | Integer |      | Replicate ID                             |
-| 8    | Zone        | :globe_with_meridians:     | Factor  |      | Reef zone                                |
-| 9    | Latitude    | :globe_with_meridians:     | Numeric |      | Latitude of the site (*decimal format*)  |
-| 10   | Longitude   | :globe_with_meridians:     | Numeric |      | Longitude of the site (*decimal format*) |
-| 11   | Depth       | :globe_with_meridians:     | Numeric | m    | Mean depth                               |
-| 12   | Year        | :calendar:                 | Integer |      | Year                                     |
-| 13   | Date        | :calendar:                 | Date    |      | Date (*YYYY-MM-DD*)                      |
-| 14   | Method      | :straight_ruler:           | Factor  |      | Description of the method used           |
-| 15   | Observer    | :straight_ruler:           | Factor  |      | Name of the diver                        |
-| 16   | Category    | :crab:                     | Factor  |      | See **Table 2**                          |
-| 17   | Group       | :crab:                     | Factor  |      | See **Table 2**                          |
-| 18   | Family      | :crab:                     | Factor  |      | Family                                   |
-| 19   | Genus       | :crab:                     | Factor  |      | Genus                                    |
-| 20   | Species     | :crab:                     | Factor  |      | Species                                  |
-| 21   | Cover       | :chart_with_upwards_trend: | Numeric | %    | Cover percentage                         |
+|      | Variable (DwC)                  | Cat.                       | Type    | Unit | Description                              |
+| ---- | ------------------------------- | -------------------------- | ------- | ---- | ---------------------------------------- |
+| 1    | DatasetID (*datasetID*)         | :memo:                     | Factor  |      | Dataset ID                               |
+| 2    | Area (*higherGeography*)        | :globe_with_meridians:     | Factor  |      | Biogeographic area                       |
+| 3    | Country (*country*)             | :globe_with_meridians:     | Factor  |      | Country                                  |
+| 4    | Archipelago (*islandGroup*)     | :globe_with_meridians:     | Factor  |      | Archipelago                              |
+| 5    | Location (*stateProvince*)      | :globe_with_meridians:     | Factor  |      | Location or island within the country    |
+| 6    | Site (*locality*)               | :globe_with_meridians:     | Factor  |      | Site within the location                 |
+| 7    | Replicate                       | :globe_with_meridians:     | Integer |      | Replicate ID                             |
+| 8    | Zone (*habitat*)                | :globe_with_meridians:     | Factor  |      | Reef zone                                |
+| 9    | Latitude (*decimalLatitude*)    | :globe_with_meridians:     | Numeric |      | Latitude of the site (*decimal format*)  |
+| 10   | Longitude (*decimalLongitude*)  | :globe_with_meridians:     | Numeric |      | Longitude of the site (*decimal format*) |
+| 11   | Depth                           | :globe_with_meridians:     | Numeric | m    | Mean depth                               |
+| 12   | Year (*year*)                   | :calendar:                 | Integer |      | Year                                     |
+| 13   | Date (*eventDate*)              | :calendar:                 | Date    |      | Date (*YYYY-MM-DD*)                      |
+| 14   | Method (*samplingProtocol*)     | :straight_ruler:           | Factor  |      | Description of the method used           |
+| 15   | Observer                        | :straight_ruler:           | Factor  |      | Name of the diver                        |
+| 16   | Category                        | :crab:                     | Factor  |      | See **Table 2**                          |
+| 17   | Group                           | :crab:                     | Factor  |      | See **Table 2**                          |
+| 18   | Family (*family*)               | :crab:                     | Factor  |      | Family                                   |
+| 19   | Genus (*genus*)                 | :crab:                     | Factor  |      | Genus                                    |
+| 20   | Species (*scientificName*)      | :crab:                     | Factor  |      | Species                                  |
+| 21   | Cover (*measurementValue*)      | :chart_with_upwards_trend: | Numeric | %    | Cover percentage                         |
 
 
 **Table 2.** Factor levels of variables `Category` and `Group` used for the re-categorization.
@@ -135,31 +135,31 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the second case study are described in the **Table 3**.
 
-**Table 3.** Variables selected for the fish synthetic dataset. The factor levels of the variable `Size_type` are *Total length*, *Fork length* and *Standard length*. The icons for the variables categories (`Cat.`) represents :memo: = description variables, :globe_with_meridians: = spatial variables, :calendar: = temporal variables, :straight_ruler: = methodological variables, :crab: = taxonomic variables, :chart_with_upwards_trend: = metric variables.
+**Table 3.** Variables selected for the fish synthetic dataset. The factor levels of the variable `Size_type` are *Total length*, *Fork length* and *Standard length*. The icons for the variables categories (`Cat.`) represents :memo: = description variables, :globe_with_meridians: = spatial variables, :calendar: = temporal variables, :straight_ruler: = methodological variables, :crab: = taxonomic variables, :chart_with_upwards_trend: = metric variables.Variables names in parentheses correspond to the [DarwinCore (DwC) terms](https://dwc.tdwg.org/terms/).
 
-|      | Variable    |  Cat.                      | Type    | Unit             | Description                              |
-| ---- | ----------- | -------------------------- | ------- | ---------------- | ---------------------------------------- |
-| 1    | DatasetID   | :memo:                     | Factor  |                  | Dataset ID                               |
-| 2    | Area        | :globe_with_meridians:     | Factor  |                  | Biogeographic area                       |
-| 3    | Country     | :globe_with_meridians:     | Factor  |                  | Country                                  |
-| 4    | Archipelago | :globe_with_meridians:     | Factor  |                  | Archipelago                              |
-| 5    | Location    | :globe_with_meridians:     | Factor  |                  | Location or island within the country    |
-| 6    | Site        | :globe_with_meridians:     | Factor  |                  | Site within the location                 |
-| 7    | Replicate   | :globe_with_meridians:     | Integer |                  | Replicate ID                             |
-| 8    | Zone        | :globe_with_meridians:     | Factor  |                  | Reef zone                                |
-| 9    | Latitude    | :globe_with_meridians:     | Numeric |                  | Latitude of the site (*decimal format*)  |
-| 10   | Longitude   | :globe_with_meridians:     | Numeric |                  | Longitude of the site (*decimal format*) |
-| 11   | Depth       | :globe_with_meridians:     | Numeric | m                | Mean depth                               |
-| 12   | Year        | :calendar:                 | Integer |                  | Year                                     |
-| 13   | Date        | :calendar:                 | Date    |                  | Date (*YYYY-MM-DD*)                      |
-| 14   | Method      | :straight_ruler:           | Factor  |                  | Description of the method used           |
-| 15   | Observer    | :straight_ruler:           | Factor  |                  | Name of the diver                        |
-| 16   | Family      | :crab:                     | Factor  |                  | Family                                   |
-| 17   | Genus       | :crab:                     | Factor  |                  | Genus                                    |
-| 18   | Species     | :crab:                     | Factor  |                  | Species                                  |
-| 19   | Density     | :chart_with_upwards_trend: | Numeric | n. ind. 100 m-2  | Number of individuals                    |
-| 20   | Size        | :chart_with_upwards_trend: | Numeric | cm               | Size of individuals                      |
-| 21   | Size_type   | :straight_ruler:           | Factor  |                  | Size type used to measure the size       |
+|      | Variable (DwC)                   |  Cat.                      | Type    | Unit             | Description                              |
+| ---- | -------------------------------- | -------------------------- | ------- | ---------------- | ---------------------------------------- |
+| 1    | DatasetID (*datasetID*)          | :memo:                     | Factor  |                  | Dataset ID                               |
+| 2    | Area (*higherGeography*)         | :globe_with_meridians:     | Factor  |                  | Biogeographic area                       |
+| 3    | Country (*country*)              | :globe_with_meridians:     | Factor  |                  | Country                                  |
+| 4    | Archipelago (*islandGroup*)      | :globe_with_meridians:     | Factor  |                  | Archipelago                              |
+| 5    | Location (*stateProvince*)       | :globe_with_meridians:     | Factor  |                  | Location or island within the country    |
+| 6    | Site (*locality*)                | :globe_with_meridians:     | Factor  |                  | Site within the location                 |
+| 7    | Replicate                        | :globe_with_meridians:     | Integer |                  | Replicate ID                             |
+| 8    | Zone (*habitat*)                 | :globe_with_meridians:     | Factor  |                  | Reef zone                                |
+| 9    | Latitude (*decimalLatitude*)     | :globe_with_meridians:     | Numeric |                  | Latitude of the site (*decimal format*)  |
+| 10   | Longitude  (*decimalLongitude*)  | :globe_with_meridians:     | Numeric |                  | Longitude of the site (*decimal format*) |
+| 11   | Depth                            | :globe_with_meridians:     | Numeric | m                | Mean depth                               |
+| 12   | Year (*year*)                    | :calendar:                 | Integer |                  | Year                                     |
+| 13   | Date (*eventDate*)               | :calendar:                 | Date    |                  | Date (*YYYY-MM-DD*)                      |
+| 14   | Method (*samplingProtocol*)      | :straight_ruler:           | Factor  |                  | Description of the method used           |
+| 15   | Observer                         | :straight_ruler:           | Factor  |                  | Name of the diver                        |
+| 16   | Family (*family*)                | :crab:                     | Factor  |                  | Family                                   |
+| 17   | Genus  (*genus*)                 | :crab:                     | Factor  |                  | Genus                                    |
+| 18   | Species (*scientificName*)       | :crab:                     | Factor  |                  | Species                                  |
+| 19   | Density                          | :chart_with_upwards_trend: | Numeric | n. ind. 100 m-2  | Number of individuals                    |
+| 20   | Size                             | :chart_with_upwards_trend: | Numeric | cm               | Size of individuals                      |
+| 21   | Size_type (*measurementType*)    | :straight_ruler:           | Factor  |                  | Size type used to measure the size       |
 
 
 ## 4. How to report issues?
