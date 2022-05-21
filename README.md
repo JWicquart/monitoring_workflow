@@ -5,19 +5,24 @@
 [Wicquart, J., Gudka, M., Obura, D., Logan, M., Staub, F., Souter, D., Planes, S. (2022). A workflow to integrate ecological monitoring data from different sources. *Ecological Informatics*, 68.](https://doi.org/10.1016/j.ecoinf.2021.101543)
 
 
-## 1. How to download this project?
+## 1. Abstract
+
+Programs and initiatives aiming to protect biodiversity and ecosystems have increased over the last decades in response to their decline. Most of these are based on monitoring data to quantitatively describe trends in biodiversity and ecosystems. The estimation of such trends, at large scales, requires the integration of numerous data from multiple monitoring sites. However, due to the high heterogeneity of data formats and the resulting lack of interoperability, the data integration remains sparsely used and synthetic analyses are often limited to a restricted part of the data available. Here we propose a workflow, comprising four main steps, from data gathering to quality control, to better integrate ecological monitoring data and to create a synthetic dataset that will make it possible to analyse larger sets of monitoring data, including unpublished data. The workflow was designed and applied in the production of the Status of Coral Reefs of the World: 2020 report, where more than two hundred individual datasets were integrated to assess the status and trends of hard coral cover at the global scale. The workflow was applied to two case studies and associated R codes, based on the experience acquired during the production of this report. The proposed workflow allows for the integration of datasets with different levels of taxonomic and spatial precision, with a high degree of reproducibility. It provides a conceptual and technical framework for the integration of ecological monitoring data, allowing for the estimation of temporal trends in biodiversity and ecosystems or to test ecological hypotheses at larger scales.
+
+
+## 2. How to download this project?
 
 On the project main page on GitHub, click on the green button `Code` and then click on `Download ZIP`
 
-## 2. Path 3.A - Taxonomic re-categorization
+## 3. Path 3.A - Taxonomic re-categorization
 
 
-### 2.1 Context
+### 3.1 Context
 
 The first case study correspond to the path 3A of the workflow and illustrate the integration of data from monitoring of benthic communities (sessile organisms) in coral reefs. Because the taxonomic identification is difficult, broad categories are often used (*e.g.* algae, hard living coral) in most of monitoring programs. Thus, during the data integration, a taxonomic re-categorization must be done to insure the use of common categories across the different datasets integrated. We highlight that the different datasets were created to illustrate the worklow and they do not correspond to any existing real datasets.
 
 
-### 2.2 Project organization
+### 3.2 Project organization
 
 The folder `path_3a` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignment done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. 
 
@@ -26,7 +31,7 @@ Those data files and folders numbering is used correspondingly in the `R` folder
 The *.Rmd* format (rmarkdown) was chosen for the different R scripts because it allows a better segmentation and annotation of the code and process (necessary for the step 2) and the exportation of code and output to an HTML file which may include interactive tables, plots and maps (necessary for steps 3 and 4). The HTML files can be opened with a search engine (*e.g.* Google Chrome) and an internet connection is necessary for the visualization of interactive maps.
 
 
-### 2.3 Raw datasets description
+### 3.3 Raw datasets description
 
 The `01_raw` folder includes five folders corresponding to the data shared by five different data contributors. Each of them represent a specific case:
 
@@ -37,7 +42,7 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 * :page_facing_up: `data_contributor_5`: Three *.xlsx* files where the two first files contains data in wide format with different columns names, and the third file contains site coordinates.
 
 
-### 2.4 Variables selected
+### 3.4 Variables selected
 
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the first case study are described in the **Table 1**.
 
@@ -103,15 +108,15 @@ The first step of the workflow is to select the variables that will have to be p
 | Seagrass            |                  |
 
 
-## 3. Path 3.B - Taxonomical verification
+## 4. Path 3.B - Taxonomical verification
 
 
-### 3.1 Context
+### 4.1 Context
 
 The second case study correspond to the path 3B of the workflow and illustrate the integration of data from monitoring of fish communities (vagile organisms) in coral reefs. Because the monitoring of fish is based on true taxonomical levels (*e.g.* species, genus) instead of broad categories, a taxonomical verification must be assessed during the data integration to avoid misspelling names and include recent update in taxonomy. We highlight that the different datasets were created to illustrate the worklow and they do not correspond to any existing real datasets.
 
 
-### 3.2 Project organization
+### 4.2 Project organization
 
 The folder `path_3b` contains the folders `data` and `R`. The `data` folder regroup all the data files with a numbering corresponding to their level of advancement in the workflow. Hence, the folder `01_raw` contains the different raw data files as received by data contributors, the folder `02_reformatted` contains the individually reformatted datasets, the file *03_synthetic-dataset* correspond to the grouped data with taxonomic assignment done, and the file *04_final-synthetic-dataset* correspond to the final synthetic dataset. 
 
@@ -120,7 +125,7 @@ Those data files and folders numbering is used correspondingly in the `R` folder
 The *.Rmd* format (rmarkdown) was chosen for the different R scripts because it allows a better segmentation and annotation of the code and process (necessary for the step 2) and the exportation of code and output to an HTML file which may include interactive tables, plots and maps (necessary for steps 3 and 4). The HTML files can be opened with a search engine (*e.g.* Google Chrome) and an internet connection is necessary for the visualization of interactive maps.
 
 
-### 3.3 Raw datasets description
+### 4.3 Raw datasets description
 
 The `01_raw` folder includes five folders corresponding to the data shared by five different data contributors. Each of them represent a specific case:
 
@@ -131,7 +136,7 @@ The `01_raw` folder includes five folders corresponding to the data shared by fi
 * :page_facing_up: `data_contributor_5`: Four *.xlsx* files with one sheet, the first three contains the main data with same column names for three different sites, the fourth contains sites coordinates data.
 
 
-### 3.4 Variables selected
+### 4.4 Variables selected
 
 The first step of the workflow is to select the variables that will have to be present in the final synthetic dataset. The variables selected for the second case study are described in the **Table 3**.
 
@@ -162,12 +167,12 @@ The first step of the workflow is to select the variables that will have to be p
 | 21   | Size_type (*measurementType*)    | :straight_ruler:           | Factor  |                  | Size type used to measure the size       |
 
 
-## 4. How to report issues?
+## 5. How to report issues?
 
 Please report any bugs or issues [HERE](https://github.com/JWicquart/monitoring_workflow/issues).
 
 
-## 5. Reproducibility parameters
+## 6. Reproducibility parameters
 
 ```R
 R version 4.1.0 (2021-05-18)
